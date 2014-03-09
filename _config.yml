@@ -2,3 +2,4 @@ name: Mike Christianson
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:title/
+url: https://codeaweso.me
