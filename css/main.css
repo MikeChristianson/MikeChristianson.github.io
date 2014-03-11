@@ -29,6 +29,12 @@ a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
+blockquote {
+  font-style: italic;
+  padding-left: 10px;
+  border-left: 5px solid;
+}
+
 /*****************************************************************************/
 /*
 /* Home
