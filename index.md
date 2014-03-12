@@ -2,7 +2,9 @@
 layout: default
 title: Mike Christianson 
 --- 
-[![](https://s.gravatar.com/avatar/a4fbafa0d3081734be8077960fa5e76d?s=185){: .alignleft width="185" height="185" style="float: left; margin-right: 2em"}][1]
+[![](https://s.gravatar.com/avatar/a4fbafa0d3081734be8077960fa5e76d?s=185){: width="185" height="185" style="float: left; margin-right: 2em; margin-bottom: 2em;"}][1]
+
+# Mike Christianson
 
 * Senior Software Engineer
 * Focused on Customers and Craftsmanship
@@ -11,6 +13,25 @@ title: Mike Christianson
 
 [Contact Mike][1]   
 
+<div style="clear: left;"></div>
+
+# Skills, Languages, Technologies, etc.
+
 Java • JUnit • Agile • HTTP • TDD • Concurrency • Jetty • XML • JSON • Eclipse • IntelliJ IDEA • Cygwin • Craftsmanship • Git • Jenkins • Ant • Dropwizard • Subversion • Guava • Ivy • Gradle • XStream • Refactoring • Jackson • Continuous Integration • Windows • Linux • Mac • Automation 
 
+# Professional Development
+	
+## Writing
+* Presently co-drafting a book proposal on Java concurrency
+* [DZone.com Contributor][4] Java and development topics
+* Leader, [Phoenix Software Engineering Reading Group][5]
+
+## Personal Projects
+* [Sleeping Barber][2] (2013). My take on the Sleeping Barber program using modern Java concurrency constructs. *Java*.
+* [MotoWatcher][3] (2012). Motorola cable modem signal statistics page scraper and notifier. *Java, HTTP, XOM, TagSoup, XML, HTML, Growl/Prowl*.
+
 [1]: https://codeaweso.me/contact/
+[2]: https://github.com/MikeChristianson/sleeping-barber
+[3]: https://github.com/MikeChristianson/MotoWatcher
+[4]: http://www.dzone.com/users/mikechristianson
+[5]: {{ site.url }}/phoenix-software-engineering-reading-group-at-gangplank/
