@@ -35,6 +35,11 @@ blockquote {
   border-left: 2px solid;
 }
 
+ul {
+  margin-left: 1.35em;
+  margin-bottom: 1em;
+}
+
 /*****************************************************************************/
 /*
 /* Home
@@ -115,6 +120,7 @@ blockquote {
 
 .footer .contact a {
   color: #8085C1;
+  margin-left: 1em;
 }
 
 .footer .rss {
@@ -142,6 +148,7 @@ blockquote {
 
 .post ul, .post ol {
   margin-left: 1.35em;
+  margin-bottom: 1em;
 }
 
 .post code {
