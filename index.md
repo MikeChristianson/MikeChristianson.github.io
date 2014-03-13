@@ -20,18 +20,19 @@ title: Mike Christianson
 Java • JUnit • Agile • HTTP • TDD • Concurrency • Jetty • XML • JSON • Eclipse • IntelliJ IDEA • Cygwin • Craftsmanship • Git • Jenkins • Ant • Dropwizard • Subversion • Guava • Ivy • Gradle • XStream • Refactoring • Jackson • Continuous Integration • Windows • Linux • Mac • Automation 
 
 # Professional Development
+
+* Leader, [Phoenix Software Engineering Reading Group][5]
 	
 ## Writing
-* Presently co-drafting a book proposal on Java concurrency
-* [DZone.com Contributor][4] Java and development topics
-* Leader, [Phoenix Software Engineering Reading Group][5]
+* Prospective co-author of a Java concurrency book
+* [DZone.com Contributor][4] on Java and development topics
 
 ## Personal Projects
 * [Sleeping Barber][2] (2013). My take on the Sleeping Barber program using modern Java concurrency constructs. *Java*.
 * [MotoWatcher][3] (2012). Motorola cable modem signal statistics page scraper and notifier. *Java, HTTP, XOM, TagSoup, XML, HTML, Growl/Prowl*.
 
-[1]: https://codeaweso.me/contact/
+[1]: /contact/
 [2]: https://github.com/MikeChristianson/sleeping-barber
 [3]: https://github.com/MikeChristianson/MotoWatcher
 [4]: http://www.dzone.com/users/mikechristianson
-[5]: {{ site.url }}/phoenix-software-engineering-reading-group-at-gangplank/
+[5]: /phoenix-software-engineering-reading-group-at-gangplank/
