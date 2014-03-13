@@ -1,5 +1,0 @@
---- layout: post title: Mount NTFS partitions at startup with fstab categories: - linux tags: - fstab - ntfs status: publish type: post published: true meta: \_edit\_last: \'2\' simplecatch-sidebarlayout: \'\' --- Yesterday I helped a [coworker][1] figure out the best way to [have Linux mount an NTFS partition at startup][2]. It was an interesting little problem because there are multiple solutions but only a single \"correct\" solution. At first I questioned the need to do anything at all -- my computer apparently mounts my NTFS drive on its own but I couldn\'t remember how. Before I found the ultimate solution, one approach my coworker attemped was to have gnome execute a script at login which used the <tt>mount</tt> command. This didn\'t work; he forgot to use <tt>gksudo</tt> and anyway the script never seemed to run. Then I remembered <tt>[fstab][3]</tt> and the rest is history. If you need to accomplish the same thing, be sure to read his [<tt>fstab</tt> blog post][2]. 
-
-[1]: http://dollopofdesi.blogspot.com
-[2]: http://dollopofdesi.blogspot.com/2009/07/loading-windows-partition-at-bootup-in.html
-[3]: https://help.ubuntu.com/community/Fstab

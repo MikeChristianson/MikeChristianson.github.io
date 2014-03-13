@@ -1,5 +1,0 @@
---- layout: post title: \'Software Engineering reading group: Clean Code\' categories: - books - gangplank - programming tags: \[\] status: publish type: post published: true meta: \_edit\_last: \'2\' simplecatch-sidebarlayout: \'\' --- [![](http://photos.smugmug.com/photos/i-QB9t5HC/0/O/i-QB9t5HC.jpg){: .alignright width="120" height="160"}][1]I joined a software engineering reading group, last week, hosted out of Gangplank.  The group is reading [*Clean Code* by Bob C. Martin][2].  If you\'re in the Phoenix metro area and interested in joining, check for details on the [Gangplank blog][3]. 
-
-[1]: http://www.amazon.com/gp/product/0132350882/ref=as_li_ss_il?ie=UTF8&amp;tag=wiltblog-20&amp;linkCode=as2&amp;camp=217145&amp;creative=399369&amp;creativeASIN=0132350882
-[2]: http://www.amazon.com/gp/product/0132350882/ref=as_li_ss_tl?ie=UTF8&amp;tag=wiltblog-20&amp;linkCode=as2&amp;camp=217145&amp;creative=399369&amp;creativeASIN=0132350882
-[3]: http://gangplankhq.com/2011/06/software-engineering-reading-group/
