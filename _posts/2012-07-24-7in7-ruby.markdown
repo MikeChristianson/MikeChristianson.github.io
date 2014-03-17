@@ -1,0 +1,55 @@
+---
+layout: post
+title: '7in7: Ruby'
+categories:
+- books
+- programming
+tags:
+- ruby
+status: draft
+type: post
+published: false
+meta:
+  _edit_last: '2'
+  simplecatch-sidebarlayout: ''
+---
+<h1>Day 1</h1>
+<h2>Found:</h2>
+<ul>
+	<li><a href="http://www.ruby-doc.org/core-1.9.3/">Ruby API</a></li>
+	<li><a href="http://ruby-doc.org/docs/ProgrammingRuby/">Pickaxe book</a></li>
+	<li><a href="http://www.ruby-doc.org/core-1.9.3/String.html#method-i-gsub">A method that substitutes part of a string</a></li>
+	<li><a href="http://www.ruby-doc.org/core-1.9.3/Regexp.html">Information about Ruby’s regular expressions</a></li>
+	<li><a href="http://www.ruby-doc.org/core-1.9.3/Range.html">Information about Ruby’s ranges</a></li>
+</ul>
+<h2>Done:</h2>
+<a href="https://github.com/MikeChristianson/7in7/tree/master/Ruby/Day-1">https://github.com/MikeChristianson/7in7/tree/master/Ruby/Day-1</a>
+<div>
+<ul>
+	<li>Print the string “Hello, world.”</li>
+	<li>For the string “Hello, Ruby,” find the index of the word “Ruby.”</li>
+	<li>Print your name ten times.</li>
+	<li>Print the string “This is sentence number 1,” where the number 1 changes from 1 to 10.</li>
+	<li>Run a Ruby program from a file.</li>
+</ul>
+Day 2
+
+From the Hashes section, I didn't understand the following:
+
+"The result is not fully true, but it is almost just as good, because the system will evaluate it as true. Notice that you didn’t have to type in the braces. These braces are optional for the last parameter of a function."
+
+Find:
+<ul>
+	<li>Files are automatically closed when a block is used.</li>
+	<li>You can translate a <a href="http://www.ruby-doc.org/core-1.9.3/Hash.html">Hash</a> to an <a href="http://www.ruby-doc.org/core-1.9.3/Array.html">Array</a> using <a href="http://www.ruby-doc.org/core-1.9.3/Hash.html#method-i-to_a">to_a</a>, <a href="http://www.ruby-doc.org/core-1.9.3/Hash.html#method-i-flatten">flatten</a>, <a href="http://www.ruby-doc.org/core-1.9.3/Hash.html#method-i-keys">keys</a>, or <a href="http://www.ruby-doc.org/core-1.9.3/Hash.html#method-i-values">values</a> depending on what you want. You can translate an Array to a Hash using <a href="http://www.ruby-doc.org/core-1.9.3/Hash.html#method-c-5B-5D">Hash[key,value,…]</a>.</li>
+	<li>You can iterate through a Hash using <a href="http://www.ruby-doc.org/core-1.9.3/Hash.html#method-i-each">each</a>.</li>
+	<li>Arrays can be used as hashes, stacks, queues, bitsets…</li>
+</ul>
+<div>Do:
+<ul>
+	<li>Print the contents of an array of sixteen numbers, four numbers at a time, using just each. Now, do the same with each_slice in Enumerable.</li>
+	<li>The Tree class was interesting, but it did not allow you to specify a new tree with a clean user interface. Let the initializer accept a nested structure with hashes and arrays. You should be able to specify a tree like this: {’grandpa’ =&gt; { ’dad’ =&gt; {’child 1’ =&gt; {}, ’child 2’ =&gt; {} }, ’uncle’ =&gt; {’child 3’ =&gt; {}, ’child 4’ =&gt; {} } } }.</li>
+	<li>Write a simple grep that will print the lines of a file having any occurrences of a phrase anywhere in that line. You will need to do a simple regular expression match and read lines from a file. (This is surprisingly simple in Ruby.) If you want, include line numbers.</li>
+</ul>
+</div>
+</div>
