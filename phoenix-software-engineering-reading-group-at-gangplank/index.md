@@ -1,12 +1,14 @@
 ---
-layout: default
+layout: page
 title: Phoenix Software Engineering Reading Group at Gangplank
 --- 
-We\'re an open group of Phoenix-area software engineers and developers! We meet [weekly on Wednesday nights from 8pm to 10pm at Gangplank in Chandler](#where). Questions? [Send me a message][1]. 
+We\'re an open group of Phoenix-area software engineers and developers! We meet [weekly on Wednesday nights from 8pm to 10pm at Gangplank in Chandler](#where). 
+
+Questions? <a href="/contact/" class="btn" style="margin-left: 2em;">Send me a message</a>
 
 ### Current book
 
-<span style="float:right; margin: 2em">[![Good Math cover](http://www.smugmug.com/photos/i-vHNF5rZ/0/S/i-vHNF5rZ-S.jpg)][2]</span> *[Good Math: A Geek\'s Guide to the Beauty of Numbers, Logic, and Computation][2]* 
+<span style="float:right; margin: 2em; border: 1px solid;">[![Good Math cover](http://www.smugmug.com/photos/i-vHNF5rZ/0/S/i-vHNF5rZ-S.jpg)][2]</span> *[Good Math: A Geek\'s Guide to the Beauty of Numbers, Logic, and Computation][2]* 
 
 > Mathematics is beautiful -- and it can be fun and exciting as well as
 > practical. Good Math is your guide to some of the most intriguing
