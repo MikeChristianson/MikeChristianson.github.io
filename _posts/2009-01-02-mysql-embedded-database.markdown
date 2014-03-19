@@ -31,10 +31,10 @@ Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/databaseNa
 MySQL can be deployed and initialized from the JDBC URL by adding 'mxj'
 
 Configure JDBC username, password, and the following as appropriate for your particular environment.
-JDBC Driver: <tt>com.mysql.jdbc.Driver</tt>
-JDBC URL: <tt>jdbc:mysql:mxj://localhost/databaseName?server.initialize-user=true</tt>
-JNDI resource: <tt>java:comp/env/jdbc/resourceName</tt>
-Datasource: <tt>com.mysql.jdbc.jdbc2.optional.MysqlDataSource</tt>
+JDBC Driver: `com.mysql.jdbc.Driver`
+JDBC URL: `jdbc:mysql:mxj://localhost/databaseName?server.initialize-user=true`
+JNDI resource: `java:comp/env/jdbc/resourceName`
+Datasource: `com.mysql.jdbc.jdbc2.optional.MysqlDataSource`
 
 <code>InitialContext ic = new InitialContext();
 DataSource ds = ic.lookup("java:comp/env/jdbc/resourceName");

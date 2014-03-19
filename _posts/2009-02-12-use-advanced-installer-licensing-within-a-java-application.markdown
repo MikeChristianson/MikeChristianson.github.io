@@ -26,7 +26,7 @@ There is no official documentation which answers these questions, but based on a
 
 My solution mirrors the C++ implementation and is remarkably simple.  Thanks to Cosmin, a member of the Advanced Installer support team, for sending me in the right direction.
 
-<pre lang="java" line="1">
+{% highlight java %}
 public class LicenseChecker {
     private static final String LIBRARY_KEY = "Replace this String with the Trialware/Registration Library Key";
 
@@ -52,6 +52,6 @@ public class LicenseChecker {
         int DisplayRegistrationStr(String keyCode, HWND hwnd);
     }
 }
-</pre>
+{% endhighlight %}
 
 Note: The above uses <a href="https://jna.dev.java.net/">Java Native Access (JNA)</a> to invoke the Advanced Installer library.

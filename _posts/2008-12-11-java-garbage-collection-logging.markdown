@@ -29,16 +29,19 @@ So, now you can answer questions like "how much memory is my app using," "how mu
 
 GC logging is enabled using JVM arguments; below are the arguments I use. <!--more-->(Note: the log file specified as <em>file</em> is reset each time the VM starts.)
 
-<code>-verbose:gc -Xloggc:<em>file</em></code>
+`-verbose:gc -Xloggc:<em>file</em>`
 
 <p style="border: thin dashed;">Dan Evans, in his <a href="http://www.infoq.com/presentations/Visualizing-Java-GC">garbage collection talk at DevNexus 2013</a>, recommends the following GC flags in addition to the above.
 
-<code>-XX:+PrintGCDetails -XX:+PrintTenuringDistribution</code></p>
+`-XX:+PrintGCDetails -XX:+PrintTenuringDistribution`</p>
 
 Here's an example GC log file which shows three GC events including one full GC.
-<pre>[GC 19062K-&gt;7172K(60800K), 0.0087190 secs]
+`
+[GC 19062K-&gt;7172K(60800K), 0.0087190 secs]
 [GC 9346K-&gt;7525K(60800K), 0.0052810 secs]
-[Full GC 7525K-&gt;7477K(60800K), 0.0615190 secs]</pre>
+[Full GC 7525K-&gt;7477K(60800K), 0.0615190 secs]
+`
+
 In the first event, garbage collection takes just under nine thousandths of a second to collect 11,890K memory used by objects (19,062K to 7,172K) while the heap is 60,800K.&nbsp; The last event is a full GC lasting just over six hundredths of a second to free up 48K with no change in the heap.
 
 Data like this can be invaluable in saving one's sanity or ending arguments! For further details on garbage collection, see Oracle's&nbsp;<a title="article on GC Portal" href="http://www.oracle.com/technetwork/articles/javase/gcportal-136937.html">GC Portal</a> and <a title="doc on GC tuning" href="http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html">Virtual Machine Garbage Collection Tuning</a> documentation.

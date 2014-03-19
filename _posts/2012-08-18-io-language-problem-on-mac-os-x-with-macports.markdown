@@ -17,27 +17,27 @@ meta:
 ---
 This week in <a title="Seven Languages in Seven Weeks reading group" href="http://codeaweso.me/2012/07/seven-languages-in-seven-weeks-reading-group/">Seven Languages in Seven Weeks</a> brings the <a href="http://iolanguage.com/">Io Language</a>. Installing the binaries is, of course, the first task in beginning to use the language. However, I'm not off to a roaring start just yet.
 
-After installing the binaries using the <a href="http://iobin.suspended-chord.info/mac/iobin-mac-current.zip">Mac package installer</a>, I find that the <code>io</code> binary is not found.
+After installing the binaries using the <a href="http://iobin.suspended-chord.info/mac/iobin-mac-current.zip">Mac package installer</a>, I find that the `io` binary is not found.
 
-<pre lang="text">
+{% highlight text %}
 $ io
 -bash: io: command not found
-</pre><!--more-->
+{% endhighlight %}<!--more-->
 
 Let's try this…
-<pre lang="text">
+{% highlight text %}
 $ /usr/local/bin/io
 bash: /usr/local/bin/io: Permission denied
-</pre>
+{% endhighlight %}
 
 Hmmm… it is there, but I can't access it… let's look closer.
-<pre lang="text">
+{% highlight text %}
 $ ls -l /usr/local
 total 0
 drwx------ 17 macports wheel 578 Aug 18 11:08 bin
-</pre>
+{% endhighlight %}
 
-Well, that explains it. For some reason, <a href="http://www.macports.org/">MacPorts</a> set up <code>/usr/local/bin/</code> with very restrictive permissions. And, apparently, I'm not the only one to run into this problem:
+Well, that explains it. For some reason, <a href="http://www.macports.org/">MacPorts</a> set up `/usr/local/bin/` with very restrictive permissions. And, apparently, I'm not the only one to run into this problem:
 
 <ul>
 	<li><a href="http://tips4all.net/macports-sets-permissions-incorrectly.html">http://tips4all.net/macports-sets-permissions-incorrectly.html</a></li>
@@ -45,16 +45,16 @@ Well, that explains it. For some reason, <a href="http://www.macports.org/">MacP
 </ul>
 
 Let's fix it with chmod.
-<pre lang="bash">
+{% highlight bash %}
 chmod a+x /usr/local/bin/
-</pre>
+{% endhighlight %}
 
 It works!
-<pre lang="io">
+{% highlight io %}
 $ io
 Io 20110905
 Io> 
-</pre>
+{% endhighlight %}
 Thanks to <a href="http://iobin.suspended-chord.info/">Jake Peck</a>, creator of the Io binary installers, for his assistance in solving this little mystery.
 
 Now, on to the fun stuff…

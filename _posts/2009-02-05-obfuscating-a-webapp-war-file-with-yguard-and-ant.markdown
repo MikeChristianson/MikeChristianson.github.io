@@ -99,7 +99,6 @@ Before you try using my Ant script, read <a href="http://www.yworks.com/products
 
 <!-- rebuild the war file -->
 <war destfile="webapp_obf.war" basedir="${unwar.dir}"/>
-</pre>
 {% endhighlight %}
 
 <a href="http://www.yworks.com/">yWorks</a>, the creator of yGuard, is perhaps best known for <a href="http://www.yworks.com/en/products_ydoc.html">yDoc a UML diagram generator for JavaDocs</a>.

@@ -16,15 +16,15 @@ meta:
 Add a little color to your life and be happy.
 
 Retain grep highlighting when piping through less:
-<code>grep --color=always | less -R</code>
+`grep --color=always | less -R`
 
 Colorize svn status output: <a href="http://colorsvn.tigris.org">http://colorsvn.tigris.org</a>
-<code>svn status | colorsvn</code>
+`svn status | colorsvn`
 
 Colorize your diffs: <a href="http://colordiff.org">http://colordiff.org</a>
-<code>diff | colordiff</code>
+`diff | colordiff`
 
 Colorize your svn diffs:
-<code>svn diff | colordiff | less -R</code>
+`svn diff | colordiff | less -R`
 
 Cross-posted at <a href="https://coderwall.com/p/oa17pq">coderwall.com</a>.

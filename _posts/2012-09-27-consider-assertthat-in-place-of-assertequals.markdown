@@ -14,11 +14,11 @@ meta:
   _edit_last: '2'
   simplecatch-sidebarlayout: ''
 ---
-<a href="http://junit.sourceforge.net/doc/ReleaseNotes4.4.html">JUnit 4.4 added a new assertion mechanism</a> with the method <tt>assertThat()</tt>. Have a look and consider using it in place of <tt>assertEquals()</tt>.
+<a href="http://junit.sourceforge.net/doc/ReleaseNotes4.4.html">JUnit 4.4 added a new assertion mechanism</a> with the method `assertThat()`. Have a look and consider using it in place of `assertEquals()`.
 
-<pre lang="java">
+{% highlight java %}
 assertThat(result, is(42));
-</pre>
-<pre lang="java">
+{% endhighlight %}
+{% highlight java %}
 assertThat(output, containsString("foo"));
-</pre>
+{% endhighlight %}

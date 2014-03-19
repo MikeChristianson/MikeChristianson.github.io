@@ -31,6 +31,6 @@ This program graphs the history of each city's home price index.  <!--more-->Not
 
 The graph's data comes from a static CSV which I slightly hand-modified from <a href="http://www2.standardandpoors.com/portal/site/sp/en/us/page.topic/indices_csmahp/2,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0.html">the original XLS spreadsheet</a>.
 
-It's interesting the number of little things I find missing or bothersome.  For example, I'd like to use <tt><a href="http://processing.org/reference/curveVertex_.html">curveVertex()</a></tt> instead of <tt><a href="http://processing.org/reference/vertex_.html">vertex()</a></tt> for a smoother line curve, but by nature it doesn't display the first and last data points.  Fortunately there are enough data points and few large jumps/drops so the graph does not appear jagged.  I could go on...
+It's interesting the number of little things I find missing or bothersome.  For example, I'd like to use `<a href="http://processing.org/reference/curveVertex_.html">curveVertex()</a>` instead of `<a href="http://processing.org/reference/vertex_.html">vertex()</a>` for a smoother line curve, but by nature it doesn't display the first and last data points.  Fortunately there are enough data points and few large jumps/drops so the graph does not appear jagged.  I could go on...
 
 Taking a break from the book and making something useful has been fun.

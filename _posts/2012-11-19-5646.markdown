@@ -19,14 +19,14 @@ meta:
 ---
 <em>Note</em><em>: This bug is resolved in Jetty 8.1.8 (</em><a href="http://dev.eclipse.org/mhonarc/lists/jetty-commit/msg06316.html">v20121106</a><em>).</em>
 
-Earlier this month, I filed <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=393363">Jetty bug report 393363</a> and offered a patch for a fatal error when the <code>user.language</code> property is set to <code>tr</code> (Turkish).
-<blockquote>The use of <code>toUpperCase()</code> must be <code>Locale</code> insensitive. Otherwise, <code>setTarget()</code> will throw a <code>NoSuchMethodException</code> when the rules of the default <code>Locale</code> produce an unexpected result. For example, if <code>user.language=tr</code>, then the following would produce "<code>setİnitialSize</code>" rather than the expected "<code>setInitialSize</code>".
+Earlier this month, I filed <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=393363">Jetty bug report 393363</a> and offered a patch for a fatal error when the `user.language</code> property is set to <code>tr` (Turkish).
+<blockquote>The use of `toUpperCase()</code> must be <code>Locale</code> insensitive. Otherwise, <code>setTarget()</code> will throw a <code>NoSuchMethodException</code> when the rules of the default <code>Locale</code> produce an unexpected result. For example, if <code>user.language=tr</code>, then the following would produce "<code>setİnitialSize</code>" rather than the expected "<code>setInitialSize`".
 This applies to current and past versions of Jetty.</blockquote>
-This problem surfaced when a customer in Turkey could not get my company's software to work on a Turkish-language OS. A work-around is to set the Java <code>user.language</code> property to <code>en</code>, but Jetty shouldn't require this in order to work. The patch specifies an appropriate <code>Locale</code>:
-<pre lang="diff">diff --git a/jetty-plus/src/main/java/org/eclipse/jetty/plus/annotation/Injection.java b/jetty-plus/src/main/java/org/eclipse/jetty/plus/annotation/Injection.java
+This problem surfaced when a customer in Turkey could not get my company's software to work on a Turkish-language OS. A work-around is to set the Java `user.language</code> property to <code>en</code>, but Jetty shouldn't require this in order to work. The patch specifies an appropriate <code>Locale`:
+{% highlight diff %}diff --git a/jetty-plus/src/main/java/org/eclipse/jetty/plus/annotation/Injection.java b/jetty-plus/src/main/java/org/eclipse/jetty/plus/annotation/Injection.java
 index 5cfad9a..5c529a6 100644
 --- a/jetty-plus/src/main/java/org/eclipse/jetty/plus/annotation/Injection.java
 +++ b/jetty-plus/src/main/java/org/eclipse/jetty/plus/annotation/Injection.java
 @@ -140,7 +140,7 @@ public class Injection
 - String setter = "set"+target.substring(0,1).toUpperCase()+target.substring(1);
-+ String setter = "set"+target.substring(0,1).toUpperCase(Locale.ENGLISH)+target.substring(1);</pre>
++ String setter = "set"+target.substring(0,1).toUpperCase(Locale.ENGLISH)+target.substring(1);{% endhighlight %}

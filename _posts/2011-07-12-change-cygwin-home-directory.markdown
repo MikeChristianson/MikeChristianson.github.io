@@ -13,7 +13,7 @@ meta:
 ---
 <img style="float: left; margin-right: 1em;" src="http://photos.smugmug.com/photos/i-r5gnHJ8/0/O/i-r5gnHJ8.png" alt="" width="64" height="64" />Perhaps most people using Cygwin don't realize this, but they actually have two home directories. One is their Windows home directory (`%USERPROFILE%`) and the other is their Cygwin home directory (`~`).
 
-Several months ago I became frustrated with repeated navigation from one to the other, so I began using a symbolic link. In `~` I created a link to `%USERPROFILE%` with&nbsp;<code>ln -s "$USERPROFILE" home</code>. Thus, any time I wanted to change to my Windows home directory I would simply `cd ~/home`.
+Several months ago I became frustrated with repeated navigation from one to the other, so I began using a symbolic link. In `~` I created a link to `%USERPROFILE%` with&nbsp;`ln -s "$USERPROFILE" home`. Thus, any time I wanted to change to my Windows home directory I would simply `cd ~/home`.
 
 It worked, but that&nbsp;dichotomy remained… Then, it&nbsp;occurred&nbsp;to me: why couldn't `~` and `%USERPROFILE%` be the same?
 

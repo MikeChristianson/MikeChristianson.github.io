@@ -24,7 +24,7 @@ At work, we use <a href="http://www.advancedinstaller.com/">Advanced Installer</
 
 Here is a partial Ant script for executing Advanced Installer builds.  It's not fancy, but it gets the job done.<!--more-->  Notice the script has two parts -- one for setting the version number of the product and another for doing the actual build.
 
-<pre lang="xml" line="1">
+{% highlight xml %}
 <property name="installer.command" location="C:/Caphyon/Advanced Installer/AdvancedInstaller.com"/>
 <property name="filename" location="C:/build/product.aip"/>
 
@@ -39,14 +39,14 @@ Here is a partial Ant script for executing Advanced Installer builds.  It's not 
     <arg value="/build"/>
     <arg value="${filename}"/>
 </exec>
-</pre>
+{% endhighlight %}
 
 In the next snippet, which should be executed first, I've made the version number dynamic based on the current time, day, and month (but not year)!  (The pattern may seem a little odd; it conforms to <a href="http://msdn.microsoft.com/en-us/library/aa370859.aspx">what Windows Installer expects</a>.)  Of course, this is completely optional and can be overridden using <a href="http://ant.apache.org/manual/running.html">Ant command-line properties</a>.
 
-<pre lang="xml" line="1">
+{% highlight xml %}
 <tstamp>
     <format property="installerVersion" pattern="MM.dd.HHmm"/>
 </tstamp>
-</pre>
+{% endhighlight %}
 
 When this script is combined with continuous integration, we have a repeatable, consistent, fully automated build of our software and its installer.  And that rocks.
