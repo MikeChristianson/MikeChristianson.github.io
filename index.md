@@ -27,6 +27,8 @@ layout: page
 * **[Sleeping Barber][2]** (2013). My take on the Sleeping Barber program using modern Java concurrency constructs. *Java*.
 * **[MotoWatcher][3]** (2012). Motorola cable modem signal statistics page scraper and notifier. *Java, HTTP, XOM, TagSoup, XML, HTML, Growl/Prowl*.
 
+<div style="clear: left;"><div style="text-align: center;"><a href="/contact/" class="btn" style="width: 25%;">Contact Mike</a></div></div>
+
 [1]: {{ site.url }}/contact/
 [2]: https://github.com/MikeChristianson/sleeping-barber
 [3]: https://github.com/MikeChristianson/MotoWatcher
