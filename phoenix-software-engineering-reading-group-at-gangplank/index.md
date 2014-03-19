@@ -8,16 +8,7 @@ Questions? <a href="/contact/" class="btn" style="margin-left: 2em;">Send me a m
 
 ### Current book
 
-<span style="float:right; margin: 2em; border: 1px solid;">[![Good Math cover](http://www.smugmug.com/photos/i-vHNF5rZ/0/S/i-vHNF5rZ-S.jpg)][2]</span> *[Good Math: A Geek\'s Guide to the Beauty of Numbers, Logic, and Computation][2]* 
-
-> Mathematics is beautiful -- and it can be fun and exciting as well as
-> practical. Good Math is your guide to some of the most intriguing
-> topics from two thousand years of mathematics: from Egyptian fractions
-> to Turing machines; from the real meaning of numbers to proof trees,
-> group symmetry, and mechanical computation. If you’ve ever wondered
-> what lay beyond the proofs you struggled to complete in high school
-> geometry, or what limits the capabilities of the computer on your
-> desk, this is the book for you.
+<span style="margin-right: 1em; border: 1px solid;">[![Good Math cover](http://www.smugmug.com/photos/i-vHNF5rZ/0/Ti/i-vHNF5rZ-Ti.jpg)][2]</span> *[Good Math: A Geek\'s Guide to the Beauty of Numbers, Logic, and Computation][2]*
 
 ### How does it work?
 
