@@ -11,7 +11,7 @@ meta:
   _wpas_done_all: '1'
   simplecatch-sidebarlayout: ''
 ---
-[caption id="" align="alignright" width="363"]<img class=" " alt="" src="http://www.smugmug.com/photos/i-F7PQb7L/1/L/i-F7PQb7L-L.png" width="363" height="311" /> svn diff … | colordiff | less -R[/caption]
+<img alt="svn color diff example" src="http://www.smugmug.com/photos/i-F7PQb7L/1/L/i-F7PQb7L-L.png" width="363" height="311" />
 
 Add a little color to your life and be happy.
 
@@ -26,5 +26,3 @@ Colorize your diffs: <a href="http://colordiff.org">http://colordiff.org</a>
 
 Colorize your svn diffs:
 `svn diff | colordiff | less -R`
-
-Cross-posted at <a href="https://coderwall.com/p/oa17pq">coderwall.com</a>.
