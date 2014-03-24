@@ -17,7 +17,7 @@ meta:
   _edit_last: '2'
   simplecatch-sidebarlayout: ''
 ---
-<img style="float:right; margin-left: 1em;" src="http://photos.smugmug.com/photos/i-w3VTGk2/0/O/i-w3VTGk2.gif" alt="" width="315" height="50" />Power-users and developers who use Windows are probably familiar with <a href="http://www.sysinternals.com">Sysinternals</a> "utilities to help you manage, troubleshoot and diagnose your Windows systems and applications." For those folks, here's a quick one-liner to download all of Sysinternals tools using wget. (I use <a href="http://codeaweso.me/tag/cygwin/">cygwin</a>, hence `wget`. Powershell users may have something similar.)
+<img style="float:right; margin-left: 1em;" src="http://photos.smugmug.com/photos/i-w3VTGk2/0/O/i-w3VTGk2.gif" alt="" width="315" height="50" />Power-users and developers who use Windows are probably familiar with <a href="http://www.sysinternals.com">Sysinternals</a> "utilities to help you manage, troubleshoot and diagnose your Windows systems and applications." For those folks, here's a quick one-liner to download all of Sysinternals tools using wget. (I use <a href="/tag/cygwin/">cygwin</a>, hence `wget`. Powershell users may have something similar.)
 
 `wget -N -r -l 1 -nd http://live.sysinternals.com/`
 

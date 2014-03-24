@@ -26,7 +26,7 @@ meta:
   simplecatch-sidebarlayout: ''
 ---
 <img style="float: right; margin-left: 1em;" alt="" src="http://www.smugmug.com/photos/i-3FDBtMX/0/Th/IntelliJIDEA-Th.png" width="150" height="150" />
-For many years Eclipse has occupied the center of my Java development universe, but recent <a title="Phoenix Software Engineering Reading Group at Gangplank" href="http://codeaweso.me/phoenix-software-engineering-reading-group-at-gangplank/">discussions</a> and <a href="https://www.google.com/search?btnG=1&amp;pws=0&amp;q=intellij+android+ide&amp;qscrl=1">events</a> have renewed my interest in learning more about IntelliJ IDEA. So, for the past month, I've used it almost exclusively, only going back to Eclipse when necessary. It's been an interesting little adventure and I'm beginning to understand why some speak about IntelliJ IDEA effusively.
+For many years Eclipse has occupied the center of my Java development universe, but recent <a title="Phoenix Software Engineering Reading Group at Gangplank" href="/phoenix-software-engineering-reading-group-at-gangplank/">discussions</a> and <a href="https://www.google.com/search?btnG=1&amp;pws=0&amp;q=intellij+android+ide&amp;qscrl=1">events</a> have renewed my interest in learning more about IntelliJ IDEA. So, for the past month, I've used it almost exclusively, only going back to Eclipse when necessary. It's been an interesting little adventure and I'm beginning to understand why some speak about IntelliJ IDEA effusively.
 
 Here are some of my thoughts.<!--more-->
 <h2>Pro (what I like it, or what I find intriguing)</h2>

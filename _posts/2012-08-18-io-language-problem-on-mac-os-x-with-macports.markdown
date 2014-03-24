@@ -15,7 +15,7 @@ meta:
   _edit_last: '2'
   simplecatch-sidebarlayout: ''
 ---
-This week in <a title="Seven Languages in Seven Weeks reading group" href="http://codeaweso.me/2012/07/seven-languages-in-seven-weeks-reading-group/">Seven Languages in Seven Weeks</a> brings the <a href="http://iolanguage.com/">Io Language</a>. Installing the binaries is, of course, the first task in beginning to use the language. However, I'm not off to a roaring start just yet.
+This week in <a title="Seven Languages in Seven Weeks reading group" href="/2012/07/seven-languages-in-seven-weeks-reading-group/">Seven Languages in Seven Weeks</a> brings the <a href="http://iolanguage.com/">Io Language</a>. Installing the binaries is, of course, the first task in beginning to use the language. However, I'm not off to a roaring start just yet.
 
 After installing the binaries using the <a href="http://iobin.suspended-chord.info/mac/iobin-mac-current.zip">Mac package installer</a>, I find that the `io` binary is not found.
 

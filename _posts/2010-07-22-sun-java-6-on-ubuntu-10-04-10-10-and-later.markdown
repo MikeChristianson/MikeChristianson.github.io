@@ -16,7 +16,7 @@ meta:
   _wp_old_slug: ''
   simplecatch-sidebarlayout: ''
 ---
-<em><strong>Post updated 2012 Mar 30</strong></em>: Java 7 is available, check out new instructions for&nbsp;<a title="Oracle Java 7 on Ubuntu 11.10 12.04" href="http://codeaweso.me/2012/03/oracle-java-7-on-ubuntu-11-10-12-04/">Oracle Java 7 on Ubuntu 11.10 12.04</a>.
+<em><strong>Post updated 2012 Mar 30</strong></em>: Java 7 is available, check out new instructions for&nbsp;<a title="Oracle Java 7 on Ubuntu 11.10 12.04" href="/2012/03/oracle-java-7-on-ubuntu-11-10-12-04/">Oracle Java 7 on Ubuntu 11.10 12.04</a>.
 
 <em>Post updated 2011 Jan 19: Given the opportunity to install 10.10, I have added <a href="#1010">different instructions for Ubuntu 10.10</a> (Maverick Meerkat).</em>
 

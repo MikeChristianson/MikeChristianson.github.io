@@ -25,7 +25,7 @@ Java's built-in garbage collection logging provides a quick, easy, and <em>free<
 	<li>heap size (initial and over time)</li>
 	<li>GC metrics (frequency, pause time, and amount freed)</li>
 </ul>
-So, now you can answer questions like "how much memory is my app using," "how much time is being spent doing garbage collection," and "how big is the heap over time." For help analyzing and visualizing a GC log file, be sure to check out <a title="GCViewer, garbage collection and heap analysis tool" href="http://codeaweso.me/2009/01/gcviewer-garbage-collection-and-heap-analysis/">GCViewer, a garbage collection and heap analysis tool</a>.
+So, now you can answer questions like "how much memory is my app using," "how much time is being spent doing garbage collection," and "how big is the heap over time." For help analyzing and visualizing a GC log file, be sure to check out <a title="GCViewer, garbage collection and heap analysis tool" href="/2009/01/gcviewer-garbage-collection-and-heap-analysis/">GCViewer, a garbage collection and heap analysis tool</a>.
 
 GC logging is enabled using JVM arguments; below are the arguments I use. <!--more-->(Note: the log file specified as <em>file</em> is reset each time the VM starts.)
 
