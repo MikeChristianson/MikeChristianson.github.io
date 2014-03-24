@@ -19,7 +19,7 @@ I presented an overview of Java concurrency -- past, present, and future -- to m
   what\'ll be possible in Java 8.
 
 [1]: /phoenix-software-engineering-reading-group-at-gangplank/
-[2]: http://codeaweso.me/_/sfbk8
+[2]: https://codeaweso.me/_/sfbk8
 [3]: http://www.javaworld.com/javaworld/jw-06-2013/130619-j101-java-concurrency-part-1.html
 [4]: http://www.javaworld.com/javaworld/jw-08-2013/130813-j101-java-concurrency-part-2.html
 [5]: http://akka.io/
