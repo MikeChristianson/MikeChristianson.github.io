@@ -5,7 +5,7 @@ layout: page
 
 * Senior Software Engineer
 * Focused on Customers and Craftsmanship
-* Leader of the [Phoenix Software Engineering Reading Group][5]
+* Leader of the Phoenix Software Engineering Reading Group
 * Prospective Co-author of a Java Concurrency Book
 
 <div style="clear: left;"><div style="text-align: center;"><a href="/contact/" class="btn" style="width: 25%;">Contact Mike</a></div></div>
