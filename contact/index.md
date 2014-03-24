@@ -5,7 +5,9 @@ layout: page
 
 Hi there!
 
-Thanks for stopping by. If you would like to contact me, or just say hello, please use one of the following services.
+Thanks for stopping by. What to chat about something? Did I goof up somewhere? Have something cool to share? Just want to say "howdy"?
+
+Get in touch using one of the following services.
 
 -- Mike
 
