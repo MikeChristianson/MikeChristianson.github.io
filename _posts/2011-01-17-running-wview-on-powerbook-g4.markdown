@@ -17,9 +17,9 @@ meta:
   _wp_old_slug: ''
   simplecatch-sidebarlayout: ''
 ---
-<img alt="" src="http://www.smugmug.com/photos/1159232851_Y3P2N-Ti.jpg" title="Davis Vantage Vue" class="alignright" width="100" height="100" />Ever since I set up my <a href="http://vantagevue.com/">Davis Vantage Vue</a> weather station, I've used my Dell Inspiron <a href="http://www.dell.com/us/p/inspiron-mini1012/fs">Mini 1012</a> to get weather data from my console, into the computer, and out to the Internet.  This weekend I decided to see if I could dust off my old <a href="http://en.wikipedia.org/wiki/PowerBook_G4#Aluminum_PowerBook_G4">12" PowerBook G4</a> and use it for the same purpose.
+<img alt="" src="http://www.smugmug.com/photos/1159232851_Y3P2N-Ti.jpg" title="Davis Vantage Vue" style="float: right; margin-left: 1em;" width="100" height="100" />Ever since I set up my <a href="http://vantagevue.com/">Davis Vantage Vue</a> weather station, I've used my Dell Inspiron <a href="http://www.dell.com/us/p/inspiron-mini1012/fs">Mini 1012</a> to get weather data from my console, into the computer, and out to the Internet.  This weekend I decided to see if I could dust off my old <a href="http://en.wikipedia.org/wiki/PowerBook_G4#Aluminum_PowerBook_G4">12" PowerBook G4</a> and use it for the same purpose.
 
-<img alt="" src="http://www.smugmug.com/photos/1159226867_QA37y-Ti.jpg" title="12&quot; PowerBook G4" class="alignleft" width="100" height="91" />To complicate matters, I had recently removed OS X 10.4 and installed Ubuntu 10.10 on the PowerBook in an ill-fated attempt to give it new life.  The PowerBook was a great computer in its time but, these days, PowerPC is a dying, if not already dead, architecture.  <!--more-->Flash 10?  Not on PowerPC.  Google Chrome?  Nope.  
+<img alt="" src="http://www.smugmug.com/photos/1159226867_QA37y-Ti.jpg" title="12&quot; PowerBook G4" style="float: right; margin-left: 1em;" width="100" height="91" />To complicate matters, I had recently removed OS X 10.4 and installed Ubuntu 10.10 on the PowerBook in an ill-fated attempt to give it new life.  The PowerBook was a great computer in its time but, these days, PowerPC is a dying, if not already dead, architecture.  <!--more-->Flash 10?  Not on PowerPC.  Google Chrome?  Nope.
 
 On the Mini, which ran Windows 7 Starter, I used <a href="http://home.comcast.net/~wuhu_software/">WUHU</a> for data acquisition and upload.  That program worked well, but obviously an x86 PC app just would not do the trick on Linux or a PowerPC.  Some searching led me to <a href="http://www.wviewweather.com">wview</a> which worked on Linux and was capable of running on something like a NSLU2 or plug computer.  It would either be perfect or a perfect mirage.
 
@@ -27,7 +27,7 @@ And then there was the issue of my USB-to-Serial adapter, for connecting the com
 
 So, there I was with a dead architecture, the wrong OS, a questionable USB adapter and... well, let's just say I wasn't very hopeful.  
 
-<img alt="" src="http://www.wviewweather.com/wview.png" title="wview" class="alignright" width="100" height="100" />But... it worked!  Much to my surprise, I was able to get data from my weather station, using wview, through the USB adapter, into the PowerBook, and out to the world.  Here's how I did it:
+<img alt="" src="http://www.wviewweather.com/wview.png" title="wview" style="float: right; margin-left: 1em;" width="100" height="100" />But... it worked!  Much to my surprise, I was able to get data from my weather station, using wview, through the USB adapter, into the PowerBook, and out to the world.  Here's how I did it:
 
 1. Installed <a href="https://wiki.ubuntu.com/PowerPC">Ubuntu 10.10 for PowerPC</a>.
 1. Tested the <a href="http://www.amazon.com/gp/product/B000067VB7?ie=UTF8&tag=wiltblog-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B000067VB7">IOgear GUC232A USB-to-Serial Adapter</a> and it worked right out of the box.

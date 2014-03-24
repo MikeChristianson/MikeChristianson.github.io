@@ -14,7 +14,7 @@ meta:
   _edit_last: '2'
   simplecatch-sidebarlayout: ''
 ---
-<a href="http://www.advancedinstaller.com/"><img alt="" src="http://www.caphyon.com/img/index/biglogo_ai.gif" title="Advanced Installer" class="alignleft" width="69" height="99" /></a>Advanced Installer 6.7 has a <a href="http://www.advancedinstaller.com/user-guide/licensing.html">new licensing and registration feature</a> which allows for time-limited demos/trials and registration of installed software.
+<a href="http://www.advancedinstaller.com/"><img alt="" src="http://www.caphyon.com/img/index/biglogo_ai.gif" title="Advanced Installer" style="float: right; margin-left: 1em;" width="69" height="99" /></a>Advanced Installer 6.7 has a <a href="http://www.advancedinstaller.com/user-guide/licensing.html">new licensing and registration feature</a> which allows for time-limited demos/trials and registration of installed software.
 
 Caphyon, the maker of Advanced Installer, provides code samples and <a href="http://www.advancedinstaller.com/user-guide/qat-trial.html">documentation on licensing integration</a> for C++ and C# applications.  To use this feature, the application must make a call into an Advanced Installer library and handle its return code.  
 

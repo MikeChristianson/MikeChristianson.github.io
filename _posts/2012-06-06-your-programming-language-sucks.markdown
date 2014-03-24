@@ -15,9 +15,9 @@ meta:
   _wpas_skip_2141747: '1'
   simplecatch-sidebarlayout: ''
 ---
-<em><strong>Update 2012-June-20</strong></em>: Please also read my follow-up post,&nbsp;<em><a title="Revisited: Your programming language sucks?" href="http://codeaweso.me/2012/06/revisited-your-programming-language-sucks/">Revisited: Your programming language sucks</a>?</em>
+<em><strong>Update 2012-June-20</strong></em>: Please also read my follow-up post,&nbsp;<em><a title="Revisited: Your programming language sucks?" href="/2012/06/revisited-your-programming-language-sucks/">Revisited: Your programming language sucks</a>?</em>
 
-I met someone recently that declared "Java sucks." One proffered argument of that "suckiness" was Java's lack of expressiveness. In point: you can't compare two `<a href="http://docs.oracle.com/javase/7/docs/api/java/util/Date.html">Date</a>` objects with the less or greater -than operators. Further, you can't <a href="http://c2.com/cgi/wiki?OperatorOverloading">override the operators</a> themselves. (I won't touch that subject; we covered it in Computer Science 201.)
+I met someone recently that declared "Java sucks." One proffered argument of that "suckiness" was Java's lack of expressiveness. In point: you can't compare two <a href="http://docs.oracle.com/javase/7/docs/api/java/util/Date.html">`Date`</a> objects with the less or greater -than operators. Further, you can't <a href="http://c2.com/cgi/wiki?OperatorOverloading">override the operators</a> themselves. (I won't touch that subject; we covered it in Computer Science 201.)
 {% highlight java %}Date now = new Date();
 Date epoch = new Date(0);
 assert now > epoch; //won't compile{% endhighlight %}

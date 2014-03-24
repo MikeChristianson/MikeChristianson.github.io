@@ -20,10 +20,10 @@ meta:
 <em>Note</em>: This bug is resolved in Jetty 8.1.8 <a href="http://dev.eclipse.org/mhonarc/lists/jetty-commit/msg06316.html">v20121106</a>).
 
 Earlier this month, I filed <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=393363">Jetty bug report 393363</a> and offered a patch for a fatal error when the `user.language` property is set to `tr` (Turkish).
-<blockquote>The use of `toUpperCase()` must be `Locale` insensitive. Otherwise, `setTarget()` will throw a `NoSuchMethodException` when the rules of the default `Locale` produce an unexpected result. For example, if `user.language=tr`, then the following would produce "`setİnitialSize" rather than the expected "`setInitialSize`".
+<blockquote>The use of toUpperCase() must be Locale insensitive. Otherwise, setTarget() will throw a NoSuchMethodException when the rules of the default Locale produce an unexpected result. For example, if user.language=tr, then the following would produce "setİnitialSize" rather than the expected "setInitialSize".
 This applies to current and past versions of Jetty.</blockquote>
 
-This problem surfaced when a customer in Turkey could not get my company's software to work on a Turkish-language OS. A work-around is to set the Java `user.language</code> property to <code>en</code>, but Jetty shouldn't require this in order to work. The patch specifies an appropriate <code>Locale`:
+This problem surfaced when a customer in Turkey could not get my company's software to work on a Turkish-language OS. A work-around is to set the Java `user.language` property to `en`, but Jetty shouldn't require this in order to work. The patch specifies an appropriate `Locale`:
 
 {% highlight diff %}
 diff --git a/jetty-plus/src/main/java/org/eclipse/jetty/plus/annotation/Injection.java b/jetty-plus/src/main/java/org/eclipse/jetty/plus/annotation/Injection.java

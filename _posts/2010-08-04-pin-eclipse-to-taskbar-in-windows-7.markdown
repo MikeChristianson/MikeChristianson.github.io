@@ -17,7 +17,7 @@ meta:
   _wpas_skip_2141747: '1'
   simplecatch-sidebarlayout: ''
 ---
-<a href="http://www.smugmug.com/photos/958450986_d3i5D-L.png"><img class="alignright" title="screenshot" alt="" src="http://www.smugmug.com/photos/958450986_d3i5D-Th.png" width="150" height="144" /></a>
+<a href="http://www.smugmug.com/photos/958450986_d3i5D-L.png"><img style="float: right; margin-left: 1em;" title="screenshot" alt="" src="http://www.smugmug.com/photos/958450986_d3i5D-Th.png" width="150" height="144" /></a>
 
 <strong>Update 2013-July-8</strong>: this workaround appears functional again with Eclipse Kepler.
 

@@ -17,7 +17,7 @@ meta:
   _wp_old_slug: ant-on-ubuntu
   simplecatch-sidebarlayout: ''
 ---
-<a href="/mike/blog/wp-content/uploads/2009/01/ant_logo_large.gif"><img class="alignleft size-medium wp-image-88" title="Ant logo" src="/mike/blog/wp-content/uploads/2009/01/ant_logo_large.gif" alt="" width="190" height="120" /></a>You may be surprised to learn <a title="Ant website" href="http://ant.apache.org/">Ant</a> requires GCJ when installed through Synaptic or `apt` on Ubuntu.  GCJ is <a title="GCJ homepage" href="http://gcc.gnu.org/java/">GNU's Java compiler</a>.  When you're using Sun's JDK and compiler, GCJ can get in the way -- at worst it creates conflicts; at best it causes confusion.
+You may be surprised to learn <a title="Ant website" href="http://ant.apache.org/">Ant</a> requires GCJ when installed through Synaptic or `apt` on Ubuntu.  GCJ is <a title="GCJ homepage" href="http://gcc.gnu.org/java/">GNU's Java compiler</a>.  When you're using Sun's JDK and compiler, GCJ can get in the way -- at worst it creates conflicts; at best it causes confusion.
 
 Here's how I installed Ant on Ubuntu without GCJ.<!--more-->  <em>Be sure to check out (easier) alternatives suggested in the <a href="#comments">comments, below</a></em>.
 <ol>

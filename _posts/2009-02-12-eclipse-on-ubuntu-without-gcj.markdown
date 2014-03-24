@@ -14,7 +14,7 @@ meta:
   _edit_last: '2'
   simplecatch-sidebarlayout: ''
 ---
-<a href="http://www.eclipse.org/downloads/"><img src="/mike/blog/wp-content/uploads/2009/02/eclipse-150x97.png" alt="eclipse" title="eclipse" width="150" height="97" class="alignright size-thumbnail wp-image-212" /></a>Software packages from Ubuntu repositories can have some interesting and problematic dependencies.  One such example is <a href="/2009/01/ant-on-ubuntu-without-gcj/">Ubuntu's dependency on GCJ for Ant</a>.
+Software packages from Ubuntu repositories can have some interesting and problematic dependencies.  One such example is <a href="/2009/01/ant-on-ubuntu-without-gcj/">Ubuntu's dependency on GCJ for Ant</a>.
 
 Ubuntu's Eclipse package also depends on GCJ.  If you wish to avoid this dependency, simply download the appropriate binary distribution from the <a href="http://www.eclipse.org/downloads/">Eclipse download site</a>, extract to the location of your choice, and run Eclipse.
 

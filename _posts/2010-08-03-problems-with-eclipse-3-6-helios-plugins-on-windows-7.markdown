@@ -15,7 +15,7 @@ meta:
   _wp_old_slug: ''
   simplecatch-sidebarlayout: ''
 ---
-<img alt="" src="http://eclipse.org/eclipse.org-common/themes/Nova/images/eclipse.png" title="eclipse logo" class="alignright" width="171" height="91" />I like to stay up-to-date with the latest Eclipse releases, often times using release candidates weeks before an actual release.  The Eclipse release candidates, generally speaking, are top-notch and free of problems.  So I was very surprised to discover a major problem with the 3.6 release almost immediately.
+<img alt="" src="http://eclipse.org/eclipse.org-common/themes/Nova/images/eclipse.png" title="eclipse logo" style="float: right; margin-left: 1em;" width="171" height="91" />I like to stay up-to-date with the latest Eclipse releases, often times using release candidates weeks before an actual release.  The Eclipse release candidates, generally speaking, are top-notch and free of problems.  So I was very surprised to discover a major problem with the 3.6 release almost immediately.
 
 <h1>the problem</h1>
 The problem was this: plugins did not appear to work.  I dutifully installed my standard plugin set using the Update Manager but discovered no evidence of the effort after a restart.  <a href="http://subclipse.tigris.org/">Subclipse</a>?  Missing.  <a href="http://www.mousefeed.com/">Mousefeed</a>? <a href="http://findbugs.sourceforge.net/">FindBugs</a>?  <a href="http://www.nwiresoftware.com/products/nwire-java">nWire</a>?  Missing!<!--more-->

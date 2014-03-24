@@ -13,7 +13,7 @@ meta:
   _edit_last: '2'
   simplecatch-sidebarlayout: ''
 ---
-<a href="http://www.amazon.com/Visualizing-Data-Ben-Fry/dp/0596514557/?tag=wiltblog-20"><img alt="" src="http://processing.org/img/learning/books/visualizing-data" title="Visualizing Data by Ben Fry" class="alignright" width="110" height="138" /></a><p>Today marks the second week I have been learning <a href="http://processing.org/">Processing</a>, a Java-based language for "program[ming] images, animation, and interactions."  In other words, I want to learn how to make useful, pretty graphics.  :)</p>
+<a href="http://www.amazon.com/Visualizing-Data-Ben-Fry/dp/0596514557/?tag=wiltblog-20"><img alt="" src="http://processing.org/img/learning/books/visualizing-data" title="Visualizing Data by Ben Fry" style="float: right; margin-left: 1em;" width="110" height="138" /></a><p>Today marks the second week I have been learning <a href="http://processing.org/">Processing</a>, a Java-based language for "program[ming] images, animation, and interactions."  In other words, I want to learn how to make useful, pretty graphics.  :)</p>
 <p>Over the past year I had seen Processing mentioned here-and-there in various articles, but what piqued my interest was a <a href="http://benfry.com/zipdecode/">visualization of US zipcodes</a>.  Check it out; it's awesome.</p>
 <p>My guide, at least for now, is <a href="http://www.amazon.com/Visualizing-Data-Ben-Fry/dp/0596514557/?tag=wiltblog-20">Visualizing Data by Ben Fry</a>.  I just completed reading the third chapter and thought I'd share an example program.<!--more--></p>
 <div id="sketch_feb28a_container">

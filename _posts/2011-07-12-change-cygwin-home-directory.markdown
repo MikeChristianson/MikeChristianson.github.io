@@ -11,7 +11,7 @@ meta:
   _edit_last: '2'
   simplecatch-sidebarlayout: ''
 ---
-<img style="float: left; margin-right: 1em;" src="http://photos.smugmug.com/photos/i-r5gnHJ8/0/O/i-r5gnHJ8.png" alt="" width="64" height="64" />Perhaps most people using Cygwin don't realize this, but they actually have two home directories. One is their Windows home directory (`%USERPROFILE%`) and the other is their Cygwin home directory (`~`).
+<img style="float: right; margin-right: 1em;" src="http://photos.smugmug.com/photos/i-r5gnHJ8/0/O/i-r5gnHJ8.png" alt="" width="64" height="64" />Perhaps most people using Cygwin don't realize this, but they actually have two home directories. One is their Windows home directory (`%USERPROFILE%`) and the other is their Cygwin home directory (`~`).
 
 Several months ago I became frustrated with repeated navigation from one to the other, so I began using a symbolic link. In `~` I created a link to `%USERPROFILE%` with&nbsp;`ln -s "$USERPROFILE" home`. Thus, any time I wanted to change to my Windows home directory I would simply `cd ~/home`.
 

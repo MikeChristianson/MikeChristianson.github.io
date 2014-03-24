@@ -23,8 +23,8 @@ Oops, your browser does not have a Java Plug-in. <a href="http://java.sun.com/pr
 
 This program, from <a href="http://www.amazon.com/Visualizing-Data-Ben-Fry/dp/0596514557/?tag=wiltblog-20">Visualizing Data</a>, plots some US beverage consumption stats over a period of time.  Clicking anywhere within the app switches the subject beverage.
 
-Unless I'm missing something, the excessive CPU usage is due to constant re-draw.  The book puts all drawing code within the `<a href="http://processing.org/reference/draw_.html">draw()</a>` method which is called repeatedly, up to 60 times per second (by default).  Setting the `<a href="http://processing.org/reference/frameRate_.html">frameRate()</a>` to 30 fps improves the matter, but only marginally.
+Unless I'm missing something, the excessive CPU usage is due to constant re-draw.  The book puts all drawing code within the <a href="http://processing.org/reference/draw_.html">draw()</a>` method which is called repeatedly, up to 60 times per second (by default).  Setting the `<a href="http://processing.org/reference/frameRate_.html">`frameRate()`</a> to 30 fps improves the matter, but only marginally.
 
-As I was putting in the reference link for `draw()`, I noticed the documentation indicates its continuous execution can be disabled with `<a href="http://processing.org/reference/noLoop_.html">noLoop()</a>`.  That's great, but has the side effect of disabling key or mouse events.
+As I was putting in the reference link for `draw()`, I noticed the documentation indicates its continuous execution can be disabled with <a href="http://processing.org/reference/noLoop_.html">`noLoop()`</a>.  That's great, but has the side effect of disabling key or mouse events.
 
 For now I'm willing to overlook this CPU usage "problem" but I hope the book addresses it soon.  
