@@ -2,17 +2,18 @@
 layout: page
 title: Phoenix Software Engineering Reading Group at Gangplank
 --- 
-We\'re an open group of Phoenix-area software engineers and developers! We meet [weekly on Wednesday nights from 8pm to 10pm at Gangplank in Chandler](#where). 
+[![Good Math cover](http://www.smugmug.com/photos/i-vHNF5rZ/0/S/i-vHNF5rZ-S.jpg){: style="float: right; margin-left: 1em; border: 1px solid;"}][2]
+We're an open group of Phoenix-area software engineers and developers! We meet [weekly on Wednesday nights from 8pm to 10pm at Gangplank in Chandler](#where).
 
-Questions? <a href="/contact/" class="btn" style="margin-left: 2em;">Send me a message</a>
+Questions? [Send me a message][1]{: class="btn" style="margin-left: 2em;"}
 
 ### Current book
 
-<span style="margin-right: 1em; border: 1px solid;">[![Good Math cover](http://www.smugmug.com/photos/i-vHNF5rZ/0/Ti/i-vHNF5rZ-Ti.jpg)][2]</span> *[Good Math: A Geek\'s Guide to the Beauty of Numbers, Logic, and Computation][2]*
+*[Good Math: A Geek's Guide to the Beauty of Numbers, Logic, and Computation][2]*
 
 ### How does it work?
 
-We read an agreed upon portion of the book on our own, then meet the following week to discuss what we\'ve read. Occasionally we take turns presenting. <a name="where" /> 
+We read an agreed upon portion of the book on our own, then meet the following week to discuss what we've read. Occasionally we take turns presenting. <a name="where" /> 
 
 ### Where do you meet?
 
@@ -24,7 +25,7 @@ The group is focused on professional development for software engineers and deve
 
 ### Should I wait until you start a new book?
 
-It depends on the book. But, really, it\'s up to you. 
+It depends on the book. But, really, it's up to you.
 
 <!-- ### Next book: *???* -->
 
@@ -38,23 +39,17 @@ It depends on the book. But, really, it\'s up to you.
 * *Seven Languages in Seven Weeks*
 * *Learn You A Haskell*
 * *Refactoring to Patterns*
-* *Don\'t Make Me Think, Revisited*
+* *Don't Make Me Think, Revisited*
 
-<!-- ### Potential Future Books and Topics
+### Potential Future Books and Topics
 
-* *Good Math*
 * *New Turing Omnibus*
 * *Continuous Delivery*
 * *Ship It!*
 * *Growing OO Software Guided by Tests*
-<ul>
-<li><span style="line-height: 13px;">D3.js</span></li>
-<li><em>Continuous Delivery</em></li>
-<li><em>Domain Driven Design</em></li>
-<li><em>Structure and Interpretation of Computer Programs</em></li>
-<li>Tufte</li>
-</ul> -->
+* *Domain Driven Design*
+* *Structure and Interpretation of Computer Programs*
 
-[1]: https://codeaweso.me/contact/
+[1]: /contact/
 [2]: https://codeaweso.me/_/goodmath
 [3]: http://gangplankhq.com/chandler/
