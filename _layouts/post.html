@@ -44,7 +44,10 @@
         {% assign gendate = site.time | date: "%s" %}
         {% assign diff = gendate | minus: pubdate %}
         {% if diff > 63072000 %}
-          <div style="text-align: center; border: thin dashed; padding: 0.5em; color: #fff; background-color: #000">This post was originally published {{ page.date | date: "%B %d, %Y" }}.</div>
+          <div style="text-align: center; border: thin dashed; padding: 0.5em; color: #fff; background-color: #000">
+              Originally published {{ page.date | date: "%B %d, %Y" }}.<br>
+              Information provided in this post may be out of date.
+          </div>
         {% endif %}
         {{ content }}
         {% if site.disqus_shortname and page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
