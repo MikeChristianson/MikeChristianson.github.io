@@ -1,4 +1,6 @@
 ErrorDocument 404 /404.html
 
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ "https\:\/\/%{SERVER_NAME}\/$1" [R=301,QSA,L]
+Options -Indexes
+
+RewriteCond %{HTTPS} on
+RewriteRule ^(.*)$ "http://%{SERVER_NAME}/$1" [R=301,QSA,L]
