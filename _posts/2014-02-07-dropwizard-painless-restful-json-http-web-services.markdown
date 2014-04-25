@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 'Dropwizard: painless RESTful JSON HTTP web services'
 categories:
@@ -19,7 +19,7 @@ All code for this tutorial is available at [GitHub][3].
 
 ## How do you get started with Dropwizard?
 
-A single Maven, Gradle, or Ivy dependency will get you all the components necessary for making Dropwizard-powered web services.     
+A single Maven, Gradle, or Ivy dependency will get you all the components necessary for making Dropwizard-powered web services.
 
 {% highlight xml %}
 <dependency>
@@ -42,7 +42,7 @@ Our super-simple `time-service.yml` configuration file will look like this.
 defaultTimezone: UTC
 {% endhighlight %}
 
-Behind the scenes, Dropwizard will load, parse, validate, and turn that configuration into an object. All we need to do is specify it as a class.     
+Behind the scenes, Dropwizard will load, parse, validate, and turn that configuration into an object. All we need to do is specify it as a class.
 
 {% highlight java %}
 public class TimezoneConfiguration extends Configuration {
@@ -56,13 +56,13 @@ public class TimezoneConfiguration extends Configuration {
 
 ## Service Output
 
-Let's say we want the output of our web service to look like this.     
+Let's say we want the output of our web service to look like this.
 
 {% highlight json %}
 { "time": "2014-02-04 13:45:02" }
 {% endhighlight %}
 
-The corresponding class is straightforward.     
+The corresponding class is straightforward.
 
 {% highlight java %}
 public class Time {
@@ -78,7 +78,7 @@ public class Time {
 
 ## Resource
 
-Next, we decide we want the URL path for our web service to be `/time`. And we need to specify the resource will return JSON. Putting those together gives us this.     
+Next, we decide we want the URL path for our web service to be `/time`. And we need to specify the resource will return JSON. Putting those together gives us this.
 
 {% highlight java %}
 @Path("/time")
@@ -87,7 +87,7 @@ public class TimeResource {
 }
 {% endhighlight %}
 
-The only RESTful action that makes sense right now for our demo web service is `GET`, so let's make a method for that. When consuming our web service, the client can provide a timezone as a query string parameter.     
+The only RESTful action that makes sense right now for our demo web service is `GET`, so let's make a method for that. When consuming our web service, the client can provide a timezone as a query string parameter.
 
 {% highlight java %}
 @GET
@@ -95,7 +95,7 @@ public Time getTime(@QueryParam("timezone") String timezone) {
 }
 {% endhighlight %}
 
-That leaves us with three more things to do: 
+That leaves us with three more things to do:
 
 1. handle a given timezone from the client
 1. substitute a default timezone if none is given
@@ -161,5 +161,5 @@ All code for this tutorial is available at [GitHub][3].
 
 [1]: http://dropwizard.codahale.com/
 [2]: http://dropwizard.codahale.com/getting-started/#overview
-[3]: https://codeaweso.me/_/dwtutcode
+[3]: https://github.com/MikeChristianson/dropwizard-tutorial
 [4]: http://dropwizard.codahale.com/getting-started/

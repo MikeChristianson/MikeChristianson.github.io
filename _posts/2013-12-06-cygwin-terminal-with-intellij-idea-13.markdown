@@ -1,16 +1,16 @@
---- 
+---
 layout: post
-title: Cygwin terminal with IntelliJ IDEA 13 
+title: Cygwin terminal with IntelliJ IDEA 13
 categories: [cygwin, intellijidea, windows]
 tags: [cygwin, intellijidea, windows]
---- 
-JetBrains has released [IntelliJ IDEA 13][1] and, after discussing some of its new features with a friend, I decided to try the new Terminal tool window. 
+---
+JetBrains has released [IntelliJ IDEA 13][1] and, after discussing some of its new features with a friend, I decided to try the new Terminal tool window.
 
-![](http://www.smugmug.com/photos/i-BC44QCB/0/O/i-BC44QCB.png){: width="381" height="177"} 
+![](http://www.smugmug.com/photos/i-BC44QCB/0/O/i-BC44QCB.png){: width="381" height="177"}
 
-You mean I have to use the default Windows command interface? Oh, the humanity. 
+You mean I have to use the default Windows command interface? Oh, the humanity.
 
-I develop on Windows (out of IT necessity) but use Cygwin for my terminal. What to do? Aha! Change the `Terminal Shell path` configuration! 
+I develop on Windows (out of IT necessity) but use Cygwin for my terminal. What to do? Aha! Change the `Terminal Shell path` configuration!
 
 Let's use Cygwin's zsh.exe instead. (You could probably substitute `cmd.exe` for `powershell.exe`, too, if that's your thing.)
 
@@ -21,4 +21,4 @@ configurable.
 
 ![](http://www.smugmug.com/photos/i-dmhKDNj/0/O/i-dmhKDNj.png){: width="381" height="177"}
 
-[1]: https://codeaweso.me/_/hq7jn
+[1]: http://blog.jetbrains.com/idea/2013/12/intellij-idea-13-is-released-work-miracles-in-java-and-beyond/
