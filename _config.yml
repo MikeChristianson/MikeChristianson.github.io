@@ -53,6 +53,8 @@ highlighter: rouge
 markdown:    kramdown
 encoding:    utf-8
 
+pagination: false
+
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:year/:month/:title/
 
