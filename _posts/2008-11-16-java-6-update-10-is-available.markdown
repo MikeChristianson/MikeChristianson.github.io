@@ -10,12 +10,12 @@ tags:
 - ubuntu
 status: publish
 type: post
-published: true
+published: false
 meta:
   _edit_last: '2'
   simplecatch-sidebarlayout: ''
 ---
-<em><strong>Update 2010 Nov 03</strong>: Be sure to read my other post about <a href="http://christiansons.net/mike/blog/2010/07/sun-java-6-on-ubuntu-10-04-10-10-and-later/">installing Java on Ubuntu 10.04 and 10.10</a>.</em>
+<em><strong>Update 2010 Nov 03</strong>: Be sure to read my other post about <a href="/2010/07/sun-java-6-on-ubuntu-10-04-10-10-and-later/">installing Java on Ubuntu 10.04 and 10.10</a>.</em>
 
 <del datetime="2011-01-20T05:28:11+00:00"><a href="http://java.sun.com/javase/6/webnotes/6u10.html">Java 6 Update 10</a> (aka Java 6u10) is now available for Linux and other platforms. Sun has published <a href="http://java.sun.com/javase/6/webnotes/6u10.html">release notes</a> for this update.</del>
 
