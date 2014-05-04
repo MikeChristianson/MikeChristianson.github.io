@@ -11,7 +11,7 @@ tags:
 - tutorial
 - dropwizard
 ---
-[![](http://dropwizard.codahale.com/_static/xdropwizard-hat.png.pagespeed.ic.t8SjDATVsD.png){: width="150" height="246" style="float: right; margin-right: 2em;"}][1]
+[![](http://dropwizard.github.io/dropwizard/_static/dropwizard-hat.png){: width="150" height="246" style="float: right; margin-right: 2em;"}][1]
 
 Java developers looking for a quick, painless way of creating production-ready RESTful JSON HTTP web services should consider the [Dropwizard][1] framework. Dropwizard brings together well-regarded libraries that compliment each other so you can get to what's important: writing and delivering working code. For those interested in details on the libraries used, please refer to the [Dropwizard overview][2]. Fortunately, Dropwizard doesn't make you deal with all of its individual components. You'll be able to keep your focus on your work at hand. If you've got some time, stick around and let's make something with Dropwizard.
 
