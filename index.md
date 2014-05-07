@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-<a href="/contact/"><img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" style="float: left; margin-right: 2em; margin-bottom: 2em;"></a>
+<a href="/contact/"><img src="{{ temp_feed_internal_url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" style="float: left; margin-right: 2em; margin-bottom: 2em;"></a>
 
 * Senior Software Engineer
 * Focused on Customers and Craftsmanship
@@ -22,8 +22,9 @@ layout: page
 * **Leader**, [Phoenix Software Engineering Reading Group][5]
 
 ## Writing
-* **[Professional Blog][7]** development topics
-* **[DZone.com Contributor][4]** development topics
+* **[Professional Blog][7]**
+* **[DZone.com Contributor][4]**
+* **[JavaCodeGeeks Contributor][8]**
 
 ## Personal Projects
 * **[Dropwizard Tutorial][6]** (2014). Painless RESTful JSON HTTP web services. *Java, Dropwizard, Jetty, Jersey, Jackson*.
@@ -32,10 +33,11 @@ layout: page
 
 <div style="clear: left;"><div style="text-align: center;"><a href="/contact/" class="btn" style="width: 25%;">Contact Mike</a></div></div>
 
-[1]: {{ site.url }}/contact/
+[1]: {{ temp_feed_internal_url }}/contact/
 [2]: https://github.com/MikeChristianson/sleeping-barber
 [3]: https://github.com/MikeChristianson/MotoWatcher
 [4]: http://www.dzone.com/users/mikechristianson
-[5]: {{ site.url }}/phoenix-software-engineering-reading-group-at-gangplank/
-[6]: {{ site.url }}/2014/02/dropwizard-painless-restful-json-http-web-services/
-[7]: {{ site.url }}/blog/
+[5]: {{ temp_feed_internal_url }}/phoenix-software-engineering-reading-group-at-gangplank/
+[6]: {{ temp_feed_internal_url }}/2014/02/dropwizard-painless-restful-json-http-web-services/
+[7]: {{ temp_feed_internal_url }}/blog/
+[8]: http://www.javacodegeeks.com/author/Mike-Christianson/
