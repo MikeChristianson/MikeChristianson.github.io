@@ -2,14 +2,14 @@
 layout: page
 title: Phoenix Software Engineering Reading Group at Gangplank
 ---
-[![Good Math cover](http://www.smugmug.com/photos/i-mDzxmDT/0/O/i-mDzxmDT.png){: style="width: 200px; float: right; margin: 1em 0 0 1em; border: 1px solid;"}][2]
+[![The Node Beginner Book cover](http://www.smugmug.com/photos/i-zHckvnC/0/S/i-zHckvnC-S.png){: style="width: 200px; float: right; margin: 1em 0 0 1em; border: 1px solid;"}][4]
 We're an open group of Phoenix-area software engineers and developers! We meet [weekly on Wednesday nights from 8pm to 10pm at Gangplank in Chandler](#where).
 
 Questions? [Send me a message][1]{: class="btn" style="margin-left: 2em;"}
 
 ### Current book
 
-Our next topic will be [Node.js][2]. We've yet to choose a book.
+Our current topic is [Node.js][2]. We're reading [The Node Beginner Book][4].
 
 ### How does it work?
 
@@ -54,3 +54,4 @@ It depends on the book. But, really, it's up to you.
 [1]: /contact/
 [2]: http://nodejs.org/
 [3]: http://gangplankhq.com/chandler/
+[4]: http://www.nodebeginner.org/
