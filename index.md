@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-<a href="/contact/"><img src="{{ temp_feed_internal_url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" style="float: left; margin-right: 2em; margin-bottom: 2em;"></a>
+<a href="/contact/"><img src="{{ url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" style="float: left; margin-right: 2em; margin-bottom: 2em;"></a>
 
 * Senior Software Engineer
 * Focused on Customers and Craftsmanship
@@ -11,11 +11,11 @@ layout: page
 
 # Skills, Languages, Technologies, etc.
 
+*Currently Using:* 
+
+<p style="text-align: justify;">Node.js • Express.js • Passport.js • S3 • MySQL • HAL • JSON • GitFlow</p>
+
 <p style="text-align: justify;">Java • JUnit • Agile • HTTP • TDD • Concurrency • Jetty • XML • JSON • Eclipse • IntelliJ IDEA • Cygwin • Craftsmanship • Git • Jenkins • Ant • Dropwizard • Subversion • Guava • Ivy • Gradle • XStream • Refactoring • Jackson • Continuous Integration • Windows • Linux • Mac • Automation</p>
-
-*Currently Learning:*
-
-<p style="text-align: justify;"> HAL+JSON • Atom.io • GitFlow • Node.js • Express.js • Passport.js</p>
 
 # Professional Development
 
@@ -33,11 +33,11 @@ layout: page
 
 <div style="clear: left;"><div style="text-align: center;"><a href="/contact/" class="btn" style="width: 25%;">Contact Mike</a></div></div>
 
-[1]: {{ temp_feed_internal_url }}/contact/
+[1]: {{ url }}/contact/
 [2]: https://github.com/MikeChristianson/sleeping-barber
 [3]: https://github.com/MikeChristianson/MotoWatcher
 [4]: http://www.dzone.com/users/mikechristianson
-[5]: {{ temp_feed_internal_url }}/phoenix-software-engineering-reading-group-at-gangplank/
-[6]: {{ temp_feed_internal_url }}/2014/02/dropwizard-painless-restful-json-http-web-services/
-[7]: {{ temp_feed_internal_url }}/blog/
+[5]: {{ url }}/phoenix-software-engineering-reading-group-at-gangplank/
+[6]: {{ url }}/2014/02/dropwizard-painless-restful-json-http-web-services/
+[7]: {{ url }}/blog/
 [8]: http://www.javacodegeeks.com/author/Mike-Christianson/
