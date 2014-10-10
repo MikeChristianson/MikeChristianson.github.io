@@ -3,17 +3,17 @@ layout: page
 title: Phoenix Software Engineering Reading Group at Gangplank
 ---
 <!-- [![The Node Beginner Book cover](http://www.smugmug.com/photos/i-zHckvnC/0/S/i-zHckvnC-S.png){: style="width: 200px; float: right; margin: 1em 0 0 1em; border: 1px solid;"}][4] -->
-We're an open group of Phoenix-area software engineers and developers! We meet [weekly on Wednesday nights from 8pm to 10pm at Gangplank in Chandler](#where).
+We're an open group of Phoenix-area software engineers and developers! We meet every other week on Wednesday nights from 8pm to 10pm at [Gangplank in Chandler](#where).
 
 Questions? [Send me a message][1]{: class="btn" style="margin-left: 2em;"}
 
-<!-- ### Current book
+### Current book
 
-Our current topic is [Node.js][2]. We're reading [The Node Beginner Book][4]. -->
+We are reading [The Timeless Way of Building][4]. 
 
 ### How does it work?
 
-We read an agreed upon portion of the book on our own, then meet the following week to discuss what we've read. Occasionally we take turns presenting. <a name="where" />
+We read an agreed upon portion of the book on our own, then meet in another two weeks to discuss what we've read. Occasionally, when the topic lends itself, we take turns presenting. <a name="where" />
 
 ### Where do you meet?
 
@@ -44,14 +44,11 @@ It depends on the book. But, really, it's up to you.
 
 ### Potential Future Books and Topics
 
-* *New Turing Omnibus*
-* *Continuous Delivery*
+* *The Design of Everyday Things*
 * *Ship It!*
-* *Growing OO Software Guided by Tests*
 * *Domain Driven Design*
-* *Structure and Interpretation of Computer Programs*
 
 [1]: /contact/
 [2]: http://nodejs.org/
 [3]: http://gangplankhq.com/chandler/
-[4]: http://www.nodebeginner.org/
+[4]: http://www.amazon.com/gp/product/0195024028/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0195024028&linkCode=as2&tag=swrg-20&linkId=AVGAZVBJGMY5CO5Q
