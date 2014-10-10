@@ -9,7 +9,7 @@ Questions? [Send me a message][1]{: class="btn" style="margin-left: 2em;"}
 
 ### Current book
 
-We are reading [The Timeless Way of Building][4]. 
+Beginning Wednesday, November, 22, we are reading [The Timeless Way of Building][4]. 
 
 ### How does it work?
 
