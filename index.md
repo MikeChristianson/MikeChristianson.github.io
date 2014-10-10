@@ -11,7 +11,11 @@ layout: page
 
 # Skills, Languages, Technologies, etc.
 
-*Currently Using:* 
+*Currently Working With:*
+
+<p style="text-align: justify;">Google Glass • Android Studio • D3.js</p>
+
+*Recently Used:* 
 
 <p style="text-align: justify;">Node.js • Express.js • Passport.js • S3 • MySQL • HAL • JSON • GitFlow</p>
 
