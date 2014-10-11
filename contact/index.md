@@ -1,6 +1,6 @@
---- 
+---
 layout: page
---- 
+---
 <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" style="float: right; margin-left: 2em; margin-bottom: 2em;">
 
 Hi there!
