@@ -11,13 +11,13 @@ layout: page
 
 # Skills, Languages, Technologies, etc.
 
-*Currently Working With:*
+*Currently Working With*
 
-<p style="text-align: justify;">Google Glass • Android Studio • D3.js</p>
+<p style="text-align: justify; margin-left: 2em;">Drupal • Acquia</p>
 
-*Recently Used:* 
+*Recently Used*
 
-<p style="text-align: justify;">Node.js • Express.js • Passport.js • S3 • MySQL • HAL • JSON • GitFlow</p>
+<p style="text-align: justify; margin-left: 2em;">Google Glass • Android Studio • D3.js • Node.js • Express.js • Passport.js • S3 • MySQL • HAL • JSON • GitFlow</p>
 
 <p style="text-align: justify;">Java • JUnit • Agile • HTTP • TDD • Concurrency • Jetty • XML • JSON • Eclipse • IntelliJ IDEA • Cygwin • Craftsmanship • Git • Jenkins • Ant • Dropwizard • Subversion • Guava • Ivy • Gradle • XStream • Refactoring • Jackson • Continuous Integration • Windows • Linux • Mac • Automation</p>
 
