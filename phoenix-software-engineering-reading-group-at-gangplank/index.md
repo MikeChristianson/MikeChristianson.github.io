@@ -45,9 +45,9 @@ It depends on the book. But, really, it's up to you.
 
 ### Potential Future Books and Topics
 
-* *The Design of Everyday Things*
 * *Ship It!*
 * *Domain Driven Design*
+* *Seven More Languages in Seven Weeks*
 
 [1]: /contact/
 [2]: http://nodejs.org/
