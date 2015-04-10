@@ -1,0 +1,17 @@
+# Site navigation links
+
+- title: About Mike
+  url: /
+
+- title: Contact Mike
+  url: /contact/
+
+- title: Read the Blog
+  url: /blog/
+
+- title: Why AZ?
+  url: http://why.az
+  external: true
+
+- title: PHX Software Book Club
+  url: /phoenix-software-engineering-reading-group-at-gangplank/
