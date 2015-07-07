@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Mapping Salesforce Object fields to Drupal Taxonomy terms
-categories:
+tags:
 - drupal
+- salesforce
 ---
 The [Salesforce Suite module for Drupal][suite] synchronizes Salesforce _Objects_ with Drupal _Content Types_ on a one-to-one, field-to-field basis. However, it doesn't map an _Object_'s fields to a _Content Type_'s Taxonomy terms. After laying out a use case, I'll share my working solution.
 
