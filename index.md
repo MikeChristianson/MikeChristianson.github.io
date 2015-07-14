@@ -14,13 +14,13 @@ layout: page
 
 *Currently Working With*
 
-<p style="text-align: justify; margin-left: 2em;">Drupal • Acquia • Amazon Echo / Alexa</p>
+<p style="text-align: justify; margin-left: 2em;"><a href="https://www.honorhealth.com">HonorHealth.com</a> &bullet; Drupal &bullet; Acquia &bullet; Amazon Echo / Alexa</p>
 
 *Recently Used*
 
-<p style="text-align: justify; margin-left: 2em;">Google Glass • Android Studio</p>
+<p style="text-align: justify; margin-left: 2em;">Google Glass &bullet; Android Studio</p>
 
-<p style="text-align: justify;">Java • JUnit • Agile • HTTP • TDD • Concurrency • Jetty • XML • JSON • Eclipse • IntelliJ IDEA • Cygwin • Craftsmanship • Git • Jenkins • Ant • Dropwizard • Subversion • Guava • Ivy • Gradle • XStream • Refactoring • Jackson • Continuous Integration • Windows • Linux • Mac • Automation • D3.js • Node.js • Express.js • Passport.js • S3 • MySQL • HAL • JSON • GitFlow</p>
+<p style="text-align: justify;">Java &bullet; JUnit &bullet; Agile &bullet; HTTP &bullet; TDD &bullet; Concurrency &bullet; Jetty &bullet; XML &bullet; JSON &bullet; Eclipse &bullet; IntelliJ IDEA &bullet; Cygwin &bullet; Craftsmanship &bullet; Git &bullet; Jenkins &bullet; Ant &bullet; Dropwizard &bullet; Subversion &bullet; Guava &bullet; Ivy &bullet; Gradle &bullet; XStream &bullet; Refactoring &bullet; Jackson &bullet; Continuous Integration &bullet; Windows &bullet; Linux &bullet; Mac &bullet; Automation &bullet; D3.js &bullet; Node.js &bullet; Express.js &bullet; Passport.js &bullet; S3 &bullet; MySQL &bullet; HAL &bullet; JSON &bullet; GitFlow</p>
 
 # Professional Development
 
@@ -50,3 +50,4 @@ layout: page
 [7]: {{ url }}/blog/
 [8]: http://www.javacodegeeks.com/author/Mike-Christianson/
 [age-calculator]: /2015/07/amazon-echo-alexa-skill/
+[honorhealth]: https://www.honorhealth.com
