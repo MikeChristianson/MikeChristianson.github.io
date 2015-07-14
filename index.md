@@ -33,6 +33,10 @@ layout: page
 * **[JavaCodeGeeks Contributor][8]**
  -->
 
+## Presentations
+* **[Sharing My Enthusiasm for Weather][wx-presentation]** (2015). Presented to coworkers at meltmedia's biweekly show and tell.
+* **[Java Concurrency -- Past, Present, Future][java-concurrency]** (2013). Presented to a group of mostly non-Java developers.
+
 ## Personal Projects
 * **[Amazon Echo Age Calculator Alexa Skill][age-calculator]** (2015). An Alexa Skill for calculating age between a given date and now. *Node, AWS Lambda, Amazon Echo*.
 * **[Dropwizard Tutorial][6]** (2014). Painless RESTful JSON HTTP web services. *Java, Dropwizard, Jetty, Jersey, Jackson*.
@@ -49,5 +53,7 @@ layout: page
 [6]: {{ url }}/2014/02/dropwizard-painless-restful-json-http-web-services/
 [7]: {{ url }}/blog/
 [8]: http://www.javacodegeeks.com/author/Mike-Christianson/
-[age-calculator]: /2015/07/amazon-echo-alexa-skill/
+[age-calculator]: {{ url }}/2015/07/amazon-echo-alexa-skill/
 [honorhealth]: https://www.honorhealth.com
+[wx-presentation]: {{ url }}/presentations/wx-enthusiasm/
+[java-concurrency]: {{ url }}/presentations/java-concurrency/
