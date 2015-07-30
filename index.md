@@ -35,6 +35,7 @@ layout: page
 
 ## Presentations
 * **[Sharing My Enthusiasm for Weather][wx-presentation]** (2015). Presented to coworkers at meltmedia's biweekly show and tell.
+* **[Visualizing Wind Data with Google Glass][asu-ers-glass]** (2014). A presentation that featured a live demo [now a screen recording] of a proof-of-concept Glassware application for ASU.
 * **[Java Concurrency -- Past, Present, Future][java-concurrency]** (2013). Presented to a group of mostly non-Java developers.
 
 ## Personal Projects
@@ -57,3 +58,4 @@ layout: page
 [honorhealth]: https://www.honorhealth.com
 [wx-presentation]: {{ url }}/presentations/wx-enthusiasm/
 [java-concurrency]: {{ url }}/presentations/java-concurrency/
+[asu-ers-glass]: {{ url }}/presentations/asu-ers-glass/

@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>ASU Google Glass Project</title>
+
+		<meta name="description" content="Glassware for the visualization of wind data">
+		<meta name="author" content="Mike Christianson">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/glass.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Visualizing wind data</h1>
+					<h3>with Google Glass</h3>
+					<p style="margin-top: 2em" class="gray"><a href="http://codeaweso.me">Mike Christianson</a></p>
+				</section>
+
+				<section>
+					<section>
+						<h1>Google Glass</h1>
+						<img width="800" height="330" src="glass.png" alt="Glass">
+						<p><em>Google Glass is a type of wearable technology with an optical head-mounted display (OHMD).</em> - <a href="http://en.wikipedia.org/wiki/Google_Glass">Wikipedia</a></p>
+					</section>
+					<section>
+						<h2>What do you see?</h2>
+						<h1>Rather,</h1>
+						<h2>What don't you see?</h2>
+					</section>
+					<section>
+						<h2>Not this.</h2>
+						<img src="ironman.png" width="668">
+					</section>
+					<section>
+						<h2>Kind of this.</h2>
+						<img src="sunset.jpg" width="668">
+					</section>
+					<section>
+						<h1 class="fragment fade-out" data-fragment-index="1">Example</h1>
+						<img src="menu.png" width="668" class="fragment fade-in" data-fragment-index="1">
+					</section>
+					<section>
+						<img src="prism.jpg" width="668" >
+						<p class="fragment fade-in" data-fragment-index="1">Equivalent to 25 inch HD screen from eight feet away.</p>
+					</section>
+					<section>
+						<h1><a href="https://support.google.com/glass/answer/3064128?hl=en">Tech Specs</a></h1>
+						<ul>
+							<li>OS - Android 4.4</li>
+							<li>Display - 640x360</li>
+							<li>Photos / Videos - 5 MP / 720p</li>
+							<li>Sensors - <a href="http://en.wikipedia.org/wiki/Gyroscope">gyroscope</a>, <a href="http://en.wikipedia.org/wiki/Accelerometer">accelerometer</a>, <a href="http://en.wikipedia.org/wiki/Magnetometer">magnetometer</a>, …</li>
+							<li>Wi-Fi / Bluetooth</li>
+							<li>12 GB of usable storage</li>
+							<li>682 MB of usable RAM</li>
+							<li>Battery - About one day, typically</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>The Client</h2>
+						<h3><a href="http://more.engineering.asu.edu/windlab/">Arizona State University<br>Environmental Remote Sensing Group</a></h3>
+						<ul>
+							<li>atmostpheric studies with <a href="http://en.wikipedia.org/wiki/Lidar#Atmospheric_Remote_Sensing_and_Meteorology">Doppler Lidar</a></li>
+							<ul class="no-border">
+								<li>weather</li>
+								<li>air quality</li>
+								<li>wind resource assessment</li>
+							</ul>
+						</ul>
+					</section>
+					<section>
+						<h2>Wind Resource Assessment</h2>
+						<img src="ers.jpg" width="668">
+					</section>
+					<section>
+						<h2>Wind Turbine Siting</h2>
+						<img src="siting.jpg" width="668">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Glass: An Opportunity</h2>
+						<ul>
+							<li>visualization of wind</li>
+							<li>augmented reality</li>
+							<li>useful for</li>
+							<ul class="no-border">
+								<li>military</li>
+								<li>firefighting</li>
+								<li>wind farm optimization</li>
+							</ul>
+							<li>needed help</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Help Wanted</h2>
+						<h4><em>Look around and see the wind with Glass.</em></h4>
+						<ul>
+							<li>what to build</li>
+							<li>how to build</li>
+							<li>user interface</li>
+							<li>loading data</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Brainstorming</h2>
+						<p>demo / mvp</p>
+						<ul>
+							<li>wind speed &sup1;</li>
+							<li>wind direction &sup1;</li>
+							<li>direction of observation</li>
+							<li>canned data ok</li>
+						</ul>
+						<!--<p style="font-size: 50%; margin-top: 2em"><sup>&sup1;</sup>wind being looked at</p>-->
+					</section>
+					<section>
+						<h2>This is a whiteboard.</h2>
+						<img src="whiteboard.jpg" width="668">
+						<p>The outcome of our brainstorming session.</p>
+					</section>
+					<section>
+						<h2>The Little Big Idea</h2>
+						<img src="barbmap.gif">
+						<p>Steve Jobs: <em>Picasso had a saying &ndash; </em><br>"good artists copy; great artists steal" <em>…</em></p>
+					</section>
+					<section>
+						<h3>Wind Barbs</h3>
+						<img src="windbarbs.jpg">
+						<p>Magnitude and direction</p>
+					</section>
+					<section>
+						<img src="whiteboard.jpg" width="668">
+						<p>wind speed, wind direction, direction of observation</p>
+					</section>
+					<section>
+						<h2>What's with <sup>&sup1;</sup>?</h2>
+						<h3>1 &ndash; wind being looked at <sup>&sup2;</sup></h3>
+						<ul>
+							<li class="fragment">Given:</li>
+							<ul class="no-border">
+								<li class="fragment">current GPS coordinate</li>
+								<li class="fragment">heading (direction of observation)</li>
+								<li class="fragment">azimuth (angle of observation)</li>
+							</ul>
+							<li class="fragment">When:</li>
+							<ul class="no-border">
+								<li class="fragment">limit observation height to an imaginary ceiling</li>
+							</ul>
+							<li class="fragment">Then:</li>
+							<ul class="no-border">
+								<li>determine the GPS coordinate of observation</li>
+							</ul>
+						</ul>
+
+						<p style="font-size: 50%; margin-top: 2em">2 &ndash; preposition</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>The Demo App</h2>
+						<h2><img src="ic_angle_50.png">ASU ERS C-Wind</h2>
+						<ul>
+							<li>screenshot</li>
+							<li>screencapture</li>
+						</ul>
+					</section>
+					<section data-background-color="#808080">
+						<h2>Screenshot</h2>
+						<div class="left"><img width="635" src="screenshot2.png" alt="screenshot"></div>
+						<div class="right" style="text-align: left;">
+							<ul>
+							<li style="background-color: #34a7ff">direction of view<br>(approx. NW)</li>
+							<li style="background-color: #ddbb11">direction and magnitude of wind<br>(approx. 15 m/s from NE)</li>
+							<li style="color: black; background-color: white">actual wind speed and direction</li>
+						  </ul>
+						</div>
+					</section>
+					<section data-background-color="#808080">
+						<h2>Screencapture</h2>
+						<iframe data-autoplay loop width="640" height="360" src="https://www.youtube-nocookie.com/embed/ycfed5hjnGc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</section>
+				</section>
+
+				<section>
+					<h2>What's left undone?</h2>
+					<ul>
+						<li>prevent display sleep</li>
+						<li>real-time data</li>
+						<li>animate movement of wind barb</li>
+						<li>improved visual design</li>
+						<li>wind data at different heights</li>
+						<li>wind data on uneven terrain (mountains, valleys)</li>
+					</ul>
+				</section>
+
+				<section>
+					<h1><img src="ic_stop_this.png"> Stop</h1>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				previewLinks: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
