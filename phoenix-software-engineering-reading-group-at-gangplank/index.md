@@ -2,14 +2,16 @@
 layout: page
 title: Phoenix Software Engineering Reading Group at Gangplank
 ---
-[![The Design of Everyday Things cover](http://www.smugmug.com/photos/i-mwzBxGk/0/S/i-mwzBxGk-S.jpg){: style="width: 199px; float: right; margin: 1em 0 0 1em; border: 1px solid;"}][4]
-We're an open group of Phoenix-area software engineers and developers! We meet every other week on Wednesday nights from 8pm to 10pm at [Gangplank in Chandler](#where).
+<!-- [![The Design of Everyday Things cover](http://www.smugmug.com/photos/i-mwzBxGk/0/S/i-mwzBxGk-S.jpg){: style="width: 199px; float: right; margin: 1em 0 0 1em; border: 1px solid;"}][4] -->
+We're an open group of Phoenix-area software engineers and developers! We meet every other week on Wednesday nights from 7pm to 9pm at [Gangplank in Chandler](#where).
 
 Questions? [Send me a message][1]{: class="btn" style="margin-left: 2em;"}
 
 ### Current book
 
-Beginning Wednesday, March, 11, we are reading [The Design of Everyday Things][4]. 
+We're choosing a new book soon! Want to join and help pick our next book?
+
+[Send me a message][1]{: class="btn" style="margin-left: 2em;"}
 
 ### How does it work?
 
@@ -41,13 +43,17 @@ It depends on the book. But, really, it's up to you.
 * *Refactoring to Patterns*
 * *Don't Make Me Think, Revisited*
 * *Good Math*
+* *Hands-on Node.js*
+* *D3.js (Interactive Data Visualization for the Web)*
 * *The Timeless Way of Building*
+* *The Design of Everyday Things*
 
 ### Potential Future Books and Topics
 
 * *Ship It!*
 * *Domain Driven Design*
 * *Seven More Languages in Seven Weeks*
+* *Seven Databases in Seven Weeks*
 
 [1]: /contact/
 [2]: http://nodejs.org/
