@@ -9,9 +9,9 @@ Questions? [Send me a message][1]{: class="btn" style="margin-left: 2em;"}
 
 ### Current book
 
-We're choosing a new book soon! Want to join and help pick our next book?
-
-[Send me a message][1]{: class="btn" style="margin-left: 2em;"}
+<div style="text-align: center; border: thin dashed; padding: 0.5em; color: #FFF; background-color: #000">
+  We're choosing a new book soon! Join us and help pick book on Wednesday, August 12, 2015 from 7pm to 9pm at <a href="http://gangplankhq.com/chandler/">Gangplank in Chandler</a>.
+</div>
 
 ### How does it work?
 
