@@ -9,9 +9,7 @@ Questions? [Send me a message][1]{: class="btn" style="margin-left: 2em;"}
 
 ### Current book
 
-<div style="text-align: center; border: thin dashed; padding: 0.5em; color: #FFF; background-color: #000">
-  We're choosing a new book soon! Join us and help pick book on Wednesday, August 12, 2015 from 7pm to 9pm at <a href="http://gangplankhq.com/chandler/">Gangplank in Chandler</a>.
-</div>
+We're reading "[Out of the Tarpit][tarpit]," a paper by by Ben Moseley and Peter Marks, presented at [Software Practice Advancement, 2006][SPA2006].
 
 ### How does it work?
 
@@ -52,10 +50,14 @@ It depends on the book. But, really, it's up to you.
 
 * *Ship It!*
 * *Domain Driven Design*
+* *Coders at Work*
+* Netflix technology
 * *Seven More Languages in Seven Weeks*
-* *Seven Databases in Seven Weeks*
+* *The Next 700 Programming Languages*
 
 [1]: /contact/
 [2]: http://nodejs.org/
 [3]: http://gangplankhq.com/chandler/
 [4]: http://www.amazon.com/gp/product/0465050654/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0465050654&linkCode=as2&tag=swrg-20&linkId=QFE6CVM5KDFCG7MQ
+[tarpit]: https://scholar.google.com/scholar?cluster=16626159420924710204
+[spa2006]: http://www.spaconference.org/spa2006/index.html
