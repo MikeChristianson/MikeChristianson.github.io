@@ -9,7 +9,7 @@ Questions? [Send me a message][1]{: class="btn" style="margin-left: 2em;"}
 
 ### Current book
 
-We're reading "[Out of the Tarpit][tarpit]," a paper by by Ben Moseley and Peter Marks, presented at [Software Practice Advancement, 2006][SPA2006].
+[We're choosing our next book][https://plus.google.com/+MikeChristianson/posts/Lhs61F854MF].
 
 ### How does it work?
 
