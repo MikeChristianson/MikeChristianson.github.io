@@ -4,7 +4,6 @@ layout: page
 <a href="/contact/"><img src="{{ url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" style="float: left; margin-right: 2em; margin-bottom: 2em;"></a>
 
 * Senior Software Engineer
-* Technical Team Leader
 * Focused on Customers and Craftsmanship
 * Leader of the Phoenix Software Engineering Reading Group
 
@@ -12,15 +11,17 @@ layout: page
 
 # Skills, Languages, Technologies, etc.
 
-*Currently Working With*
+<!-- *Currently Working With* -->
 
-<p style="text-align: justify; margin-left: 2em;"><a href="https://www.honorhealth.com">HonorHealth.com</a> &bullet; Drupal &bullet; Acquia &bullet; Amazon Echo / Alexa</p>
+*Experimenting With*
 
-*Recently Used*
+<p style="text-align: justify; margin-left: 2em;">Amazon Echo / Alexa</p>
 
-<p style="text-align: justify; margin-left: 2em;">Google Glass &bullet; Android Studio</p>
+<!-- *Recently Used* -->
 
-<p style="text-align: justify;">Java &bullet; JUnit &bullet; Agile &bullet; HTTP &bullet; TDD &bullet; Concurrency &bullet; Jetty &bullet; XML &bullet; JSON &bullet; Eclipse &bullet; IntelliJ IDEA &bullet; Cygwin &bullet; Craftsmanship &bullet; Git &bullet; Jenkins &bullet; Ant &bullet; Dropwizard &bullet; Subversion &bullet; Guava &bullet; Ivy &bullet; Gradle &bullet; XStream &bullet; Refactoring &bullet; Jackson &bullet; Continuous Integration &bullet; Windows &bullet; Linux &bullet; Mac &bullet; Automation &bullet; D3.js &bullet; Node.js &bullet; Express.js &bullet; Passport.js &bullet; S3 &bullet; MySQL &bullet; HAL &bullet; JSON &bullet; GitFlow</p>
+*Experience With*
+
+<p style="text-align: justify;">Java &bullet; JUnit &bullet; Agile &bullet; HTTP &bullet; TDD &bullet; Concurrency &bullet; Jetty &bullet; XML &bullet; JSON &bullet; Eclipse &bullet; IntelliJ IDEA &bullet; Cygwin &bullet; Craftsmanship &bullet; Git &bullet; Jenkins &bullet; Ant &bullet; Dropwizard &bullet; Subversion &bullet; Guava &bullet; Drupal &bullet; Google Glass &bullet; Android Studio &bullet; Ivy &bullet; Gradle &bullet; XStream &bullet; Refactoring &bullet; Jackson &bullet; Continuous Integration &bullet; Windows &bullet; Linux &bullet; Mac &bullet; Automation &bullet; D3.js &bullet; Node.js &bullet; Express.js &bullet; Passport.js &bullet; S3 &bullet; MySQL &bullet; HAL &bullet; JSON &bullet; GitFlow</p>
 
 # Professional Development
 
