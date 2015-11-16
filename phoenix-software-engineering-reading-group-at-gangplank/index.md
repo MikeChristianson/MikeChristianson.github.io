@@ -9,7 +9,7 @@ Questions? [Send me a message][1]{: class="btn" style="margin-left: 2em;"}
 
 ### Current book
 
-[We're choosing our next book][https://plus.google.com/+MikeChristianson/posts/Lhs61F854MF].
+[We're choosing our next book](https://plus.google.com/+MikeChristianson/posts/Lhs61F854MF).
 
 ### How does it work?
 
