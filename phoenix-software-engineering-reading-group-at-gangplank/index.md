@@ -2,14 +2,15 @@
 layout: page
 title: Phoenix Software Engineering Reading Group at Gangplank
 ---
-<!-- [![The Design of Everyday Things cover](http://www.smugmug.com/photos/i-mwzBxGk/0/S/i-mwzBxGk-S.jpg){: style="width: 199px; float: right; margin: 1em 0 0 1em; border: 1px solid;"}][4] -->
+[![Head First Design Patterns](http://akamaicovers.oreilly.com/images/9780596007126/lrg.jpg){: style="width: 199px; float: right; margin: 1em 0 0 1em; border: 1px solid;"}][4]
+
 We're an open group of Phoenix-area software engineers and developers! We meet every other week on Wednesday nights from 7pm to 9pm at [Gangplank in Chandler](#where).
 
 Questions? [Send me a message][1]{: class="btn" style="margin-left: 2em;"}
 
 ### Current book
 
-[We're choosing our next book](https://plus.google.com/+MikeChristianson/posts/Lhs61F854MF).
+[Head First Design Patterns][4], beginning December 2, 2015.
 
 ### How does it work?
 
@@ -58,6 +59,4 @@ It depends on the book. But, really, it's up to you.
 [1]: /contact/
 [2]: http://nodejs.org/
 [3]: http://gangplankhq.com/chandler/
-[4]: http://www.amazon.com/gp/product/0465050654/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0465050654&linkCode=as2&tag=swrg-20&linkId=QFE6CVM5KDFCG7MQ
-[tarpit]: https://scholar.google.com/scholar?cluster=16626159420924710204
-[spa2006]: http://www.spaconference.org/spa2006/index.html
+[4]: http://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124/
