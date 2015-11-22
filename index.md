@@ -7,7 +7,7 @@ layout: page
 * Focused on Customers and Craftsmanship
 * Leader of the Phoenix Software Engineering Reading Group
 
-<div style="clear: left;"><div style="text-align: center;"><a href="/contact/" class="btn" style="width: 25%;">Contact Mike</a></div></div>
+<div style="clear: left;"><div style="text-align: center;"><a href="{{ url }}/contact/" class="btn" style="width: 25%;"><i class="fa fa-pencil fa-2x"></i> <span style="margin-left: 2em;">Contact Mike</span></a></div></div>
 
 # Skills, Languages, Technologies, etc.
 
@@ -45,7 +45,7 @@ layout: page
 * **[Sleeping Barber][2]** (2013). My take on the Sleeping Barber program using then-modern Java concurrency constructs. *Java*.
 * **[MotoWatcher][3]** (2012). Motorola cable modem signal statistics page scraper and notifier. *Java, HTTP, XOM, TagSoup, XML, HTML, Growl/Prowl*.
 
-<div style="clear: left;"><div style="text-align: center;"><a href="/contact/" class="btn" style="width: 25%;">Contact Mike</a></div></div>
+<div style="clear: left;"><div style="text-align: center;"><a href="{{ url }}/contact/" class="btn" style="width: 25%;"><i class="fa fa-pencil fa-2x"></i> <span style="margin-left: 2em;">Contact Mike</span></a></div></div>
 
 [1]: {{ url }}/contact/
 [2]: https://github.com/MikeChristianson/sleeping-barber
