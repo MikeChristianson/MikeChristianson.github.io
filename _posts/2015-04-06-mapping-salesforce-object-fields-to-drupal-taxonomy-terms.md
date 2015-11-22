@@ -54,7 +54,7 @@ In the near future I hope to resolve the deficiencies in my implementation and c
 
 ## Code
 
-{% gist bec8ccbfe552c7f4a52b %}
+{% gist MikeChristianson/bec8ccbfe552c7f4a52b %}
 
 [suite]: https://www.drupal.org/project/salesforce
 [post]: https://www.drupal.org/node/2061623
