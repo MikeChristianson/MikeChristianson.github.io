@@ -25,5 +25,5 @@ The source code for my [_Age Calculator_ Skill is available on GitHub](https://g
 
 [certify]: https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/publishing-an-alexa-skill#Submitting%20the%20Skill%20for%20Certification
 [image]: https://photos.smugmug.com/photos/i-SzkWd4B/0/O/i-SzkWd4B-O.png
-[prior-post]: /2015/07/amazon-echo-alexa-skill/
+[prior-post]: {{ url }}/2015/07/amazon-echo-alexa-skill/
 [skills]: https://www.amazon.com/gp/help/customer/display.html?nodeId=201848700

@@ -55,8 +55,7 @@ layout: page
 [6]: {{ url }}/2014/02/dropwizard-painless-restful-json-http-web-services/
 [7]: {{ url }}/blog/
 [8]: http://www.javacodegeeks.com/author/Mike-Christianson/
-[age-calculator]: {{ url }}/2015/07/amazon-echo-alexa-skill/
-[honorhealth]: https://www.honorhealth.com
+[age-calculator]: {{ url }}/2015/11/age-calculator-amazon-echo-alexa-skill/
 [wx-presentation]: {{ url }}/presentations/wx-enthusiasm/
 [java-concurrency]: {{ url }}/presentations/java-concurrency/
 [asu-ers-glass]: {{ url }}/presentations/asu-ers-glass/
