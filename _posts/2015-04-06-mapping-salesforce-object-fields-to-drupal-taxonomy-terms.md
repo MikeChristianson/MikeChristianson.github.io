@@ -54,6 +54,8 @@ In the near future I hope to resolve the deficiencies in my implementation and c
 
 ## Code
 
+*Please note*: I accidentally left out the `get_drupal_field_name()` function, below. Unfortunately, I no longer have access to the original codebase and am unable to provide it. If you use a debugger, or use print statements, to inspect `$field_map`, you may be able to come up with your own version of `get_drupal_field_name()`. 
+
 {% gist MikeChristianson/bec8ccbfe552c7f4a52b %}
 
 [suite]: https://www.drupal.org/project/salesforce
