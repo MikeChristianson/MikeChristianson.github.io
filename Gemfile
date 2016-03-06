@@ -1,9 +1,7 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll'
-gem 'jekyll-sitemap'
-gem 'kramdown'
 gem 'github-pages'
-gem 'html-proofer'
-gem 'stringex'
-gem 'thor'
+gem "jekyll", "~> 3.0"
+gem "jekyll-sitemap"
+gem "jekyll-gist"
+gem "octopress"

@@ -7,30 +7,46 @@ logo:
 search: false
 
 # Change url to your domain. Leave localhost server or blank when working locally.
-url: http://codeaweso.me
-feed_url: http://feeds.codeaweso.me/CodeAwesome
+url:
+feed_url: /feed.xml
 
 # Jekyll configuration
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:year/:month/:title/
 markdown:    kramdown
-highlighter: pygments
-
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
 gems:
   - jekyll-sitemap
+  - jekyll-gist
 
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..2
-  use_coderay: false
+  enable_coderay: false
+
+mathjax: false
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Octopress
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
 
 
 # Site owner
@@ -48,6 +64,7 @@ owner:
   flickr:
   tumblr:
   pinterest:
+  weibo:
   google:
     plus: MikeChristianson
     analytics: UA-1465279-6
