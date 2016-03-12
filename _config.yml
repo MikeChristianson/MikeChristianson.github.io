@@ -21,7 +21,9 @@ sass:
 gems:
   - jekyll-sitemap
   - jekyll-gist
-
+whitelist:
+  - jekyll-sitemap
+  - jekyll-gist
 kramdown:
   auto_ids: true
   footnote_nr: 1
