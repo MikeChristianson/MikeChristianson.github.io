@@ -159,7 +159,7 @@ Now, point your web browser or curl at `http://localhost:8080/time?timezone=MST`
 
 All code for this tutorial is available at [GitHub][3].
 
-[1]: http://dropwizard.codahale.com/
-[2]: http://dropwizard.codahale.com/getting-started/#overview
+[1]: http://www.dropwizard.io/
+[2]: http://www.dropwizard.io/
 [3]: https://github.com/MikeChristianson/dropwizard-tutorial
-[4]: http://dropwizard.codahale.com/getting-started/
+[4]: http://www.dropwizard.io/
