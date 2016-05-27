@@ -55,6 +55,7 @@ It depends on the book. But, really, it's up to you.
 * Netflix technology
 * *Seven More Languages in Seven Weeks*
 * *The Next 700 Programming Languages*
+* *Understanding Computation*
 
 [1]: /contact/
 [2]: http://nodejs.org/
