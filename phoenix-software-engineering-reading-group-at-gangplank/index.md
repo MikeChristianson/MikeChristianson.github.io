@@ -2,7 +2,7 @@
 layout: page
 title: Phoenix Software Engineering Reading Group at Gangplank
 ---
-[![Head First Design Patterns](http://akamaicovers.oreilly.com/images/9780596007126/lrg.jpg){: style="width: 199px; float: right; margin: 1em 0 0 1em; border: 1px solid;"}][4]
+<!--[![Head First Design Patterns](http://akamaicovers.oreilly.com/images/9780596007126/lrg.jpg){: style="width: 199px; float: right; margin: 1em 0 0 1em; border: 1px solid;"}][4]-->
 
 We're an open group of Phoenix-area software engineers and developers! We meet every other week on Wednesday nights from 7pm to 9pm at [Gangplank in Chandler](#where).
 
@@ -10,7 +10,9 @@ Questions? [Send me a message][1]{: class="btn" style="margin-left: 2em;"}
 
 ### Current book
 
-[Head First Design Patterns][4], beginning December 2, 2015.
+<!--[Head First Design Patterns][4], beginning December 2, 2015.-->
+
+TBD
 
 ### How does it work?
 
@@ -46,6 +48,7 @@ It depends on the book. But, really, it's up to you.
 * *D3.js (Interactive Data Visualization for the Web)*
 * *The Timeless Way of Building*
 * *The Design of Everyday Things*
+* *Head First Design Patterns*
 
 ### Potential Future Books and Topics
 
