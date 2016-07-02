@@ -2,35 +2,11 @@
 layout: page
 title: Phoenix Software Engineering Reading Group at Gangplank
 ---
-<!--[![Head First Design Patterns](http://akamaicovers.oreilly.com/images/9780596007126/lrg.jpg){: style="width: 199px; float: right; margin: 1em 0 0 1em; border: 1px solid;"}][4]-->
+We're a group of Phoenix-area software engineers and developers! We meet every other week on Wednesday nights from 7pm to 9pm at [Gangplank in Chandler](#where).
 
-We're an open group of Phoenix-area software engineers and developers! We meet every other week on Wednesday nights from 7pm to 9pm at [Gangplank in Chandler](#where).
+> We believe there's more to programming than punching a clock and keeping status quo. We put thought and craft into our work and treat constant learning as a first principle. If you care about the code you write and love to learn with others, join us!
 
-Questions? [Send me a message][1]{: class="btn" style="margin-left: 2em;"}
-
-### Current book
-
-<!--[Head First Design Patterns][4], beginning December 2, 2015.-->
-
-TBD
-
-### How does it work?
-
-We read an agreed upon portion of the book on our own, then meet in another two weeks to discuss what we've read. Occasionally, when the topic lends itself, we take turns presenting. <a name="where" />
-
-### Where do you meet?
-
-Our group meets at [Gangplank Chandler][3] in the *Burgundy Lounge*, the first conference room on the right toward the rear of the building. Just ask someone to point you in the right direction if you need help finding us.
-
-### Is the group right for me?
-
-The group is focused on professional development for software engineers and developers. You should review the list of our [previously read books](#past-books) and judge your skill and experience accordingly. If you are new to programming or are a student, you may be better served by a study group made of your peers.
-
-### Should I wait until you start a new book?
-
-It depends on the book. But, really, it's up to you.
-
-<!-- ### Next book: *???* -->
+[![Phoenix Software Engineering Reading Group at Gangplank](https://photos.smugmug.com/photos/i-KsKcHrt/0/L/i-KsKcHrt-L.png){: style="align: center; margin: 1em; border: 1px solid;"}][meetup]
 
 <a name="past-books" />
 
@@ -50,17 +26,6 @@ It depends on the book. But, really, it's up to you.
 * *The Design of Everyday Things*
 * *Head First Design Patterns*
 
-### Potential Future Books and Topics
-
-* *Ship It!*
-* *Domain Driven Design*
-* *Coders at Work*
-* Netflix technology
-* *Seven More Languages in Seven Weeks*
-* *The Next 700 Programming Languages*
-* *Understanding Computation*
-
 [1]: /contact/
-[2]: http://nodejs.org/
 [3]: http://gangplankhq.com/chandler/
-[4]: http://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124/
+[meetup]: http://www.meetup.com/Phoenix-Software-Engineering-Reading-Group/
