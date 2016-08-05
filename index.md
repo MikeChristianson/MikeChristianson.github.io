@@ -21,7 +21,7 @@ layout: page
 
 *Experience With*
 
-<p style="text-align: justify;">Java &bullet; JUnit &bullet; Agile &bullet; HTTP &bullet; TDD &bullet; Concurrency &bullet; Jetty &bullet; XML &bullet; JSON &bullet; Eclipse &bullet; IntelliJ IDEA &bullet; Cygwin &bullet; Craftsmanship &bullet; Git &bullet; Jenkins &bullet; Ant &bullet; Dropwizard &bullet; Subversion &bullet; Guava &bullet; Drupal &bullet; Google Glass &bullet; Android Studio &bullet; Ivy &bullet; Gradle &bullet; XStream &bullet; Refactoring &bullet; Jackson &bullet; Continuous Integration &bullet; Windows &bullet; Linux &bullet; Mac &bullet; Automation &bullet; D3.js &bullet; Node.js &bullet; Express.js &bullet; Passport.js &bullet; S3 &bullet; MySQL &bullet; HAL &bullet; JSON &bullet; GitFlow</p>
+<p style="text-align: justify;">Java &bullet; JUnit &bullet; Agile &bullet; HTTP &bullet; TDD &bullet; Concurrency &bullet; Jetty &bullet; XML &bullet; JSON &bullet; IntelliJ IDEA &bullet; Craftsmanship &bullet; Git &bullet; Jenkins &bullet; Ant &bullet; Dropwizard &bullet; Subversion &bullet; Guava &bullet; Drupal &bullet; Google Glass &bullet; Drupal &bullet; Ivy &bullet; XStream &bullet; Refactoring &bullet; Jackson &bullet; Continuous Integration &bullet; Windows &bullet; Linux &bullet; Mac &bullet; Automation &bullet; D3.js &bullet; Node.js &bullet; Express.js &bullet; Passport.js &bullet; S3 &bullet; MySQL &bullet; HAL &bullet; GitFlow</p>
 
 # Professional Development
 
