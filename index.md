@@ -35,6 +35,7 @@ layout: page
  -->
 
 ## Presentations
+* _Upcoming_: **[Your First Amazon Alexa Skill][dcc-2016-alexa]** (October, 2016). To be presented at _[Desert Code Camp 2016.1][dcc-2016]_.
 * **[Sharing My Enthusiasm for Weather][wx-presentation]** (2015). Presented to coworkers at meltmedia's biweekly show and tell.
 * **[Visualizing Wind Data with Google Glass][asu-ers-glass]** (2014). A presentation that featured a live demo [now a screen recording] of a proof-of-concept Glassware application for ASU.
 * **[Java Concurrency -- Past, Present, Future][java-concurrency]** (2013). Presented to a group of mostly non-Java developers.
@@ -59,3 +60,5 @@ layout: page
 [wx-presentation]: {{ url }}/presentations/wx-enthusiasm/
 [java-concurrency]: {{ url }}/presentations/java-concurrency/
 [asu-ers-glass]: {{ url }}/presentations/asu-ers-glass/
+[dcc-2016-alexa]: http://oct2016.desertcodecamp.com/session/1210
+[dcc-2016]: http://oct2016.desertcodecamp.com/about
