@@ -1,11 +1,25 @@
 ---
 layout: page
 ---
-<a href="/contact/"><img src="{{ url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" style="float: left; margin-right: 2em; margin-bottom: 2em;"></a>
+### Senior Software Engineer
 
-* Senior Software Engineer
-* Focused on Customers and Craftsmanship
-* Leader of the Phoenix Software Engineering Reading Group
+<p style="text-align: justify;">
+Senior Software Engineer with 10+ years experience developing and maintaining cross-platform backend and middle-tier solutions for rich internet applications, single page applications, and native mobile apps.
+</p>
+
+<a href="/contact/"><img src="{{ url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" style="float: right; margin: 2em;"></a>
+
+### Focused on Quality and Craftsmanship
+
+<p style="text-align: justify;">
+Focused on creating understandable, maintainable, and testable code. Adept at making complex ideas or requirements easy to understand and achievable. Valued by teams for setting standards and providing advice and counsel. Committed to delivering on promises with a strong sense of personal accountability.
+</p>
+
+### Leader, Phoenix Software Engineering Reading Group
+
+<p style="text-align: justify;">
+Constant individual and group learner. Active community member and leader.
+</p>
 
 <div style="clear: left;"><div style="text-align: center;"><a href="{{ url }}/contact/" class="btn" style="width: 25%;"><i class="fa fa-pencil fa-2x"></i> <span style="margin-left: 2em;">Contact Mike</span></a></div></div>
 
