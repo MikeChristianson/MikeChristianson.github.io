@@ -4,7 +4,7 @@ layout: page
 ### Senior Software Engineer
 
 <p style="text-align: justify;">
-Senior Software Engineer with 10+ years experience developing and maintaining cross-platform backend and middle-tier solutions for rich internet applications, single page applications, and native mobile apps.
+Senior Software Engineer with 10+ years experience: development, testing, automation, databases, maintenance, mentoring, troubleshooting, debugging, and more.
 </p>
 
 <a href="/contact/"><img src="{{ url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" style="float: right; margin: 2em;"></a>
