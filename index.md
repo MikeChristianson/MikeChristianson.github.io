@@ -7,9 +7,9 @@ layout: page
 Senior Software Engineer with 10+ years experience: development, testing, automation, databases, maintenance, mentoring, troubleshooting, debugging, and more.
 </p>
 
-<a href="/contact/"><img src="{{ url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" style="float: right; margin: 2em;"></a>
-
 ### Focused on Quality and Craftsmanship
+
+<a href="/contact/"><img src="{{ url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" style="float: right; margin: 2em;"></a>
 
 <p style="text-align: justify;">
 Focused on creating understandable, maintainable, and testable code. Adept at making complex ideas or requirements easy to understand and achievable. Valued by teams for setting standards and providing advice and counsel. Committed to delivering on promises with a strong sense of personal accountability.
