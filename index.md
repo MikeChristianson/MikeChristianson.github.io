@@ -1,6 +1,17 @@
 ---
 layout: page
 ---
+
+<div style="text-align: center; border: thin; padding: 0.5em; color: #fff; background-color: #dd4814; border-color: #bf3e11;">
+  <p style="text-align: center;">
+    <img id="HeaderBarImage" src="http://oct2016.desertcodecamp.com/images/dcc-home.png" alt="Desert Code Camp - 2016.1">&nbsp;&nbsp;
+  Hello to all Desert Code Camp - 2016.1 attendees!
+  </p> 
+  <p style="text-align: center;">
+    Please visit the <a href="{{ url }}/presentations/your-first-amazon-alexa-skill">slides and code page for <em>Your First Amazon Alexa Skill</em></a>. 
+  </p>
+</div>
+
 ### Senior Software Engineer
 
 <p style="text-align: justify;">
