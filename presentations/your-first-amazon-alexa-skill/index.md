@@ -1,6 +1,13 @@
 ---
 layout: page
+title: "Your First Amazon Alexa Skill"
+modified: 2016-10-10 13:50:00 -0700
+excerpt: "Your First Amazon Alexa Skill -- Presented at Desert Code Camp 2016.1" 
+tags: [alexa,amazon echo,amazon,programming,skill,desert code camp,speaking]
+image:
+  feature: https://photos.smugmug.com/photos/i-7j32VjF/0/M/i-7j32VjF-M.png 
 ---
+
 
 # Your First Amazon Alexa Skill
 
