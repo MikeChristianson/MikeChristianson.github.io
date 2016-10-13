@@ -2,15 +2,7 @@
 layout: page
 ---
 
-<div style="text-align: center; border: thin; padding: 0.5em; color: #fff; background-color: #dd4814; border-color: #bf3e11;">
-  <p style="text-align: center;">
-    <img id="HeaderBarImage" src="http://oct2016.desertcodecamp.com/images/dcc-home.png" alt="Desert Code Camp - 2016.1">&nbsp;&nbsp;
-  Hello to all Desert Code Camp - 2016.1 attendees!
-  </p> 
-  <p style="text-align: center;">
-    Please visit the <a href="{{ url }}/presentations/your-first-amazon-alexa-skill/">slides and code page for <em>Your First Amazon Alexa Skill</em></a>. 
-  </p>
-</div>
+<div>{% include dcc2016-1.html %}</div>
 
 ### Senior Software Engineer
 
@@ -20,7 +12,7 @@ Senior Software Engineer with 10+ years experience: development, testing, automa
 
 ### Focused on Quality and Craftsmanship
 
-<a href="/contact/"><img src="{{ url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" style="float: right; margin: 2em;"></a>
+{% include author-photo.html %}
 
 <p style="text-align: justify;">
 Focused on creating understandable, maintainable, and testable code. Adept at making complex ideas or requirements easy to understand and achievable. Valued by teams for setting standards and providing advice and counsel. Committed to delivering on promises with a strong sense of personal accountability.
@@ -32,21 +24,11 @@ Focused on creating understandable, maintainable, and testable code. Adept at ma
 Constant individual and group learner. Active community member and leader.
 </p>
 
-<div style="clear: left;"><div style="text-align: center;"><a href="{{ url }}/contact/" class="btn" style="width: 25%;"><i class="fa fa-pencil fa-2x"></i> <span style="margin-left: 2em;">Contact Mike</span></a></div></div>
+{% include contact-button.html %}
 
 # Skills, Languages, Technologies, etc.
 
-<!-- *Currently Working With* -->
-
-*Experimenting With*
-
-<p style="text-align: justify; margin-left: 2em;">Amazon Echo / Alexa</p>
-
-<!-- *Recently Used* -->
-
-*Experience With*
-
-<p style="text-align: justify;">Java &bullet; JUnit &bullet; Agile &bullet; HTTP &bullet; TDD &bullet; Concurrency &bullet; Jetty &bullet; XML &bullet; JSON &bullet; IntelliJ IDEA &bullet; Craftsmanship &bullet; Git &bullet; Jenkins &bullet; Ant &bullet; Dropwizard &bullet; Subversion &bullet; Guava &bullet; Drupal &bullet; Google Glass &bullet; Drupal &bullet; Ivy &bullet; XStream &bullet; Refactoring &bullet; Jackson &bullet; Continuous Integration &bullet; Windows &bullet; Linux &bullet; Mac &bullet; Automation &bullet; D3.js &bullet; Node.js &bullet; Express.js &bullet; Passport.js &bullet; S3 &bullet; MySQL &bullet; HAL &bullet; GitFlow</p>
+<div>{% include skills-languages-tech.html %}</div>
 
 # Professional Development
 
@@ -71,7 +53,7 @@ Constant individual and group learner. Active community member and leader.
 * **[Sleeping Barber][2]** (2013). My take on the Sleeping Barber program using then-modern Java concurrency constructs. *Java*.
 * **[MotoWatcher][3]** (2012). Motorola cable modem signal statistics page scraper and notifier. *Java, HTTP, XOM, TagSoup, XML, HTML, Growl/Prowl*.
 
-<div style="clear: left;"><div style="text-align: center;"><a href="{{ url }}/contact/" class="btn" style="width: 25%;"><i class="fa fa-pencil fa-2x"></i> <span style="margin-left: 2em;">Contact Mike</span></a></div></div>
+{% include contact-button.html %}
 
 [1]: {{ url }}/contact/
 [2]: https://github.com/MikeChristianson/sleeping-barber

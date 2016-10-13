@@ -1,0 +1,13 @@
+<p><em>Experimenting With</em></p>
+
+<p style="text-align: justify; margin-left: 2em;">Amazon Echo / Alexa</p>
+
+<p><em>Experience With</em></p>
+
+{% assign xs = "Java • Node.js • TDD • Automation • REST • Craftsmanship • JUnit • Telecommute • Agile • JSON • HTTP API • Git • Jenkins • Troubleshooting • Continuous Integration • MySQL • AWS S3 RDS Lambda • Refactoring • HAL • GitFlow • Guava • Mac OS X • Linux • Amazon Echo Alexa • Raspberry Pi • Google Glass • Dropwizard • Jersey • Jackson • Jetty" | split: " • " | uniq %}
+
+<p style="text-align: justify;">
+  {% for x in xs %}
+  &bullet; {{ x }}
+  {% endfor %}
+</p>

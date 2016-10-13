@@ -1,11 +1,9 @@
 ---
 layout: page
 ---
-<img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" style="float: right; margin-left: 2em; margin-bottom: 2em;">
+{% include author-photo.html %}
 
 Hi there!
-
-Thanks for stopping by. What to chat about something? Have something cool to share? Just want to say "howdy"?
 
 Get in touch using one of the following services.
 
@@ -15,7 +13,7 @@ Get in touch using one of the following services.
 {% if site.owner.linkedin %}<a class="btn" href="http://linkedin.com/in/{{ site.owner.linkedin }}" title="{{ site.owner.name}} on LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i><span style="margin-left: 2em;">LinkedIn</span></a>{% endif %}
 </div>
 
-Did I goof up somewhere? Want to send me a correction? Have a better way of doing something? Feel free to create a [GitHub Issue][1].
+Want to submit a correction or clarification? Have a better way of doing something? Feel free to create a [GitHub Issue][1].
 
 -- Mike
 
