@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-{% include author-photo.html %}
+<span style="float: left; margin-right: 2em;">{% include author-photo.html %}</span>
 
 Hi there!
 

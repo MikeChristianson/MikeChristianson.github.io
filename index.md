@@ -7,12 +7,11 @@ layout: page
 ### Senior Software Engineer
 
 <p style="text-align: justify;">
+<span style="float: right; margin-left: 2em;">{% include author-photo.html %}</span>
 Senior Software Engineer with 10+ years experience: development, testing, automation, databases, maintenance, mentoring, troubleshooting, debugging, and more.
 </p>
 
 ### Focused on Quality and Craftsmanship
-
-{% include author-photo.html %}
 
 <p style="text-align: justify;">
 Focused on creating understandable, maintainable, and testable code. Adept at making complex ideas or requirements easy to understand and achievable. Valued by teams for setting standards and providing advice and counsel. Committed to delivering on promises with a strong sense of personal accountability.
