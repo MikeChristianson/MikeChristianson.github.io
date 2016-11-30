@@ -2,8 +2,6 @@
 layout: page
 ---
 
-<div>{% include dcc2016-1.html %}</div>
-
 ### Senior Software Engineer
 
 <p style="text-align: justify;">
