@@ -13,5 +13,8 @@
   url: http://why.az
   external: true
 
+- title: Mike's Weather
+  url: http://www.mikesweather.net/?utm_source=codeawesome&utm_medium=navigation
+
 - title: PHX Software Book Club
   url: /phoenix-software-engineering-reading-group-at-gangplank/
