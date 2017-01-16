@@ -1,8 +1,9 @@
 ---
 layout: page
+title:
 ---
 
-### Senior Software Engineer.
+### Senior Software Engineer
 
 <p style="text-align: justify;">
 <span style="float: right; margin-left: 2em;">{% include author-photo.html %}</span>
