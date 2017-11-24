@@ -6,8 +6,8 @@
 - title: Contact Mike
   url: /contact/
 
-- title: Read the Blog
-  url: /blog/
+#- title: Read the Blog
+#  url: /blog/
 
 - title: Why AZ?
   url: http://why.az
@@ -15,6 +15,7 @@
 
 - title: Mike's Weather
   url: http://www.mikesweather.net/?utm_source=codeawesome&utm_medium=navigation
+  external: true
 
 - title: PHX Software Book Club
-  url: /phoenix-software-engineering-reading-group-at-gangplank/
+  url: /phoenix-software-engineering-reading-group/

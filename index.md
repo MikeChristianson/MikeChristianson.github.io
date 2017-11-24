@@ -10,16 +10,16 @@ title:
 Senior Software Engineer with 10+ years experience: development, testing, automation, databases, maintenance, mentoring, troubleshooting, debugging, and more.
 </p>
 
-### Focused on Quality and Craftsmanship
+### Delivering Quality and Customer Value
 
 <p style="text-align: justify;">
 Focused on creating understandable, maintainable, and testable code. Adept at making complex ideas or requirements easy to understand and achievable. Valued by teams for setting standards and providing advice and counsel. Committed to delivering on promises with a strong sense of personal accountability.
 </p>
 
-### Leader, Phoenix Software Engineering Reading Group
+### Community Member and Leader
 
 <p style="text-align: justify;">
-Constant individual and group learner. Active community member and leader.
+Constant individual and group learner. Leader of the _Phoenix Software Engineering Reading Group_.
 </p>
 
 {% include contact-button.html %}
@@ -28,18 +28,7 @@ Constant individual and group learner. Active community member and leader.
 
 <div>{% include skills-languages-tech.html %}</div>
 
-# Professional Development
-
-* **Leader**, [Phoenix Software Engineering Reading Group][5]
-
-<!--
-## Writing
-* **[Professional Blog][7]**
-* **[DZone.com Contributor][4]**
-* **[JavaCodeGeeks Contributor][8]**
- -->
-
-## Presentations
+## Conferences and Presentations
 * **[Your First Amazon Alexa Skill][dcc-2016-alexa]** (2016). An introduction to Alexa Skills and live coding session at _[Desert Code Camp 2016.1][dcc-2016]_.
 * **[Sharing My Enthusiasm for Weather][wx-presentation]** (2015). Presented to coworkers at meltmedia's biweekly show and tell.
 * **[Visualizing Wind Data with Google Glass][asu-ers-glass]** (2014). A presentation that featured a live demo [now a screen recording] of a proof-of-concept Glassware application for ASU.
