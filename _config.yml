@@ -1,88 +1,136 @@
-# Site wide configuration
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+#theme: jekyll-theme-so-simple
+remote_theme: mmistakes/so-simple-theme
+locale: en-US
 title: Mike Christianson
-locale: en_US
 description:
-logo:
-search: false
-
-# Change url to your domain. Leave localhost server or blank when working locally.
+baseurl:
 url: http://codeaweso.me
-# feed_url: http://feeds.codeaweso.me/CodeAwesome
+logo:
+date_format: "%B %-d, %Y"
+read_time: # reading time estimates, e.g. true
+words_per_minute: # 200
+mathjax: false
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+google_analytics: UA-1465279-6
+#disqus:
+#  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+#twitter:
+#  username: # site's Twitter username, e.g. "mmistakes"
 
-# Jekyll configuration
-# https://github.com/mojombo/jekyll/wiki/Permalinks
+# Liquid
+liquid:
+  error_mode: strict
+
+# Build settings
 permalink: /:year/:month/:title/
 markdown:    kramdown
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
+# feed:
+#  path: http://feeds.codeaweso.me/CodeAwesome
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+# paginate: 10
+# paginate_path: /page:num/
+
+# Search
+search_full_content: false # can have performance implications for large sites
+
+# Taxonomoy pages
+# category_archive_path: "/categories/#"
+# tag_archive_path: "/tags/#"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-redirect-from
-whitelist:
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-redirect-from
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..2
-  enable_coderay: false
-# plugins:
-#   - jekyll-redirect-from
 
-mathjax: false
 
-# include: [".htaccess"]
-# exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+# Front Matter Defaults
+defaults:
+  # Posts defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      share: true
 
-# Octopress
+# Site Author
+author:
+  name: Mike Christianson
+  picture: avatar.jpg
+  email:
+  twitter: MikeCodeAwesome
+  github: MikeChristianson
+  linkedin: mikechristianson
+  links:
+    - title:
+      url:
+      icon:
 
-# Default extensions
-post_ext: md
-page_ext: md
+# Footer Links
+footer_links:
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
 
-# Found in _templates/
-post_layout: post
-page_layout: page
+# highlighter: rouge
+
+#gems:
+#  - jekyll-sitemap
+#  - jekyll-gist
+#  - jekyll-redirect-from
+#whitelist:
+#  - jekyll-sitemap
+#  - jekyll-gist
+#  - jekyll-redirect-from
+
+#kramdown:
+#  auto_ids: true
+#  footnote_nr: 1
+#  entity_output: as_char
+#  toc_levels: 1..2
+#  enable_coderay: false
 
 # Format titles with titlecase?
-titlecase: true
-
-
-# Site owner
-owner:
-  name: Mike Christianson
-  avatar: avatar.jpg
-  email:
-  disqus-shortname:
-  twitter: MikeCodeAwesome
-  facebook:
-  github: MikeChristianson
-  # stackexchange: http://stackoverflow.com/story/mikechristianson
-  linkedin: mikechristianson
-  instagram:
-  flickr:
-  tumblr:
-  pinterest:
-  weibo:
-  google:
-    plus:
-    analytics: UA-1465279-6
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-
-encoding: utf-8
-pagination: false
+#titlecase: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: America/Phoenix
 
-safe: true
-lsi: false
+#safe: true
+#lsi: false
