@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Age Calculator Alexa Skill for Amazon Echo"
-modified: 2015-07-06 21:00:00 -0700
+last_modified_at: 2015-07-06 21:00:00 -0700
 excerpt: The Age Calculator Alexa Skill helps you calculate age between now and a given date, whether in the past or future.
 tags: [alexa,amazon echo,programming,age calculator]
 image:

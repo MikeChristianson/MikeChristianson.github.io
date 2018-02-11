@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Your First Amazon Alexa Skill"
-modified: 2016-10-17 15:50:00 -0700
+last_modified_at: 2016-10-17 15:50:00 -0700
 excerpt: "Your First Amazon Alexa Skill" 
 tags: [alexa,amazon echo,amazon,programming,skill,desert code camp,speaking,phoenix mobile meetup,phxmobi]
 image:

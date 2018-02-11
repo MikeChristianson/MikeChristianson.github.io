@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Amazon Echo: Level Up With Alexa Skills"
-modified: 2015-07-06 19:12:41 -0700
+last_modified_at: 2015-07-06 19:12:41 -0700
 tags: [alexa,amazon echo,programming]
 ---
 [![](http://www.smugmug.com/photos/i-JZxQvmV/0/O/i-JZxQvmV.jpg){: width="355" height="355" style="float: right; margin-right: 2em;"}][story]
