@@ -5,7 +5,7 @@ modified: 2015-07-06 21:00:00 -0700
 excerpt: The Age Calculator Alexa Skill helps you calculate age between now and a given date, whether in the past or future.
 tags: [alexa,amazon echo,programming,age calculator]
 image:
-  feature: https://photos.smugmug.com/photos/i-SzkWd4B/0/O/i-SzkWd4B-O.png 
+  path: https://photos.smugmug.com/photos/i-SzkWd4B/0/O/i-SzkWd4B-O.png 
 ---
 [![](https://photos.smugmug.com/photos/i-SzkWd4B/0/M/i-SzkWd4B-M.png){: width="253" height="450" style="float: right; margin-right: 2em;"}][image]
 
