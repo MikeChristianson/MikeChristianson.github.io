@@ -31,7 +31,7 @@ Apparently, [there's a way to have my Skill be Certified][certify] to let other 
 The source code for my [_Age Calculator_ Skill is available on GitHub](https://github.com/MikeChristianson/alexa-age-calculator).
 
 <div style="text-align: center;">
-<a class="btn" href="https://github.com/MikeChristianson/alexa-age-calculator" title="Age Calculator Alexa Skill on GitHub" target="_blank"><i class="fa fa-github fa-2x"></i><span style="margin-left: 2em;"><em>Age Calculator</em> on GitHub</span></a>
+<a class="btn" href="https://github.com/MikeChristianson/alexa-age-calculator" title="Age Calculator Alexa Skill on GitHub" target="_blank"><i class="fab fa-github fa-2x"></i><span style="margin-left: 2em;"><em>Age Calculator</em> on GitHub</span></a>
 </div>
 
 [story]: http://techcrunch.com/2015/06/25/amazon-unbundles-alexa-virtual-assistant-from-echo-with-new-dev-tools/
