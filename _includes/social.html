@@ -1,0 +1,17 @@
+{%- assign author = page.author | default: page.authors[0] | default: site.author -%}
+{%- assign author = site.data.authors[author] | default: author -%}
+
+{%- if author.links[1] -%}
+  <ul style="margin-right: 1em;">
+    {%- for link in author.links -%}
+      {%- if link.url contains "://" -%}
+        {%- assign url = link.url -%}
+      {%- else -%}
+        {%- assign url = link.url | relative_url -%}
+      {%- endif -%}
+      <li class="author-link">
+        <a class="u-url" rel="me" href="{{ url }}"><i class="{{ link.icon | default : 'fas fa-link' }} fa-2x" title="{{ link.title }}"></i></a>
+      </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
