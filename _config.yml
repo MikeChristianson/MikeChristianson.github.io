@@ -92,16 +92,20 @@ defaults:
 # Site Author
 author:
   name: Mike Christianson
-  picture: avatar.jpg
+  picture: /images/avatar.jpg
   email:
   twitter: MikeCodeAwesome
   github: MikeChristianson
-  linkedin: mikechristianson
   links:
-    - title:
-      url:
-      icon:
-
+    - title: Twitter
+      url: https://twitter.com/MikeCodeAwesome
+      icon: fab fa-twitter-square
+    - title: LinkedIn
+      url: https://linkedin.com/in/mikechristianson
+      icon: fab fa-linkedin
+    - title: GitHub
+      url: https://github.com/MikeChristianson
+      icon: fab fa-github-square
 # Footer Links
 footer_links:
   - title: Feed
