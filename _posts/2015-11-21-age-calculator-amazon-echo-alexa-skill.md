@@ -18,7 +18,7 @@ If you'd like to try out my Age Calculator, look for it in the [Skills list with
 The source code for my [_Age Calculator_ Skill is available on GitHub](https://github.com/MikeChristianson/alexa-age-calculator).
 
 <div style="text-align: center;">
-<a class="btn" href="https://github.com/MikeChristianson/alexa-age-calculator" title="Age Calculator Alexa Skill on GitHub" target="_blank"><i class="fab fa-github fa-2x"></i><span style="margin-left: 2em;"><em>Age Calculator</em> on GitHub</span></a>
+<a class="btn btn--primary" href="https://github.com/MikeChristianson/alexa-age-calculator" title="Age Calculator Alexa Skill on GitHub" target="_blank"><i class="fab fa-github fa-2x"></i><span style="margin-left: 2em;"><em>Age Calculator</em> on GitHub</span></a>
 </div>
 
 [certify]: https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/publishing-an-alexa-skill#Submitting%20the%20Skill%20for%20Certification

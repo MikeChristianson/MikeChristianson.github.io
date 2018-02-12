@@ -53,11 +53,11 @@ image:
 ### [Skill Code](https://github.com/MikeChristianson/dcc-your-first-amazon-alexa-skill)
 
 <div style="text-align: center;">
-<a class="btn" href="https://github.com/MikeChristianson/dcc-your-first-amazon-alexa-skill" title="Your First Amazon Alexa Skill Code on GitHub" target="_blank"><i class="fab fa-github fa-2x"></i><span style="margin-left: 2em;"><em>Your First Amazon Alexa Skill: Code</em> on GitHub</span></a>
+<a class="btn btn--primary" href="https://github.com/MikeChristianson/dcc-your-first-amazon-alexa-skill" title="Your First Amazon Alexa Skill Code on GitHub" target="_blank"><i class="fab fa-github fa-2x"></i><span style="margin-left: 2em;"><em>Your First Amazon Alexa Skill: Code</em> on GitHub</span></a>
 </div>
 
 ### [Presentation Slides](https://github.com/MikeChristianson/dcc-your-first-amazon-alexa-skill/blob/master/Your%20First%20Alexa%20Skill.pdf)
 
 <div style="text-align: center;">
-<a class="btn" href="https://github.com/MikeChristianson/dcc-your-first-amazon-alexa-skill/blob/master/Your%20First%20Alexa%20Skill.pdf" title="Your First Amazon Alexa Skill Slides on GitHub" target="_blank"><i class="fab fa-github fa-2x"></i><span style="margin-left: 2em;"><em>Your First Amazon Alexa Skill: Slides</em> on GitHub</span></a>
+<a class="btn btn--primary" href="https://github.com/MikeChristianson/dcc-your-first-amazon-alexa-skill/blob/master/Your%20First%20Alexa%20Skill.pdf" title="Your First Amazon Alexa Skill Slides on GitHub" target="_blank"><i class="fab fa-github fa-2x"></i><span style="margin-left: 2em;"><em>Your First Amazon Alexa Skill: Slides</em> on GitHub</span></a>
 </div>
