@@ -17,6 +17,8 @@ Java developers looking for a quick, painless way of creating production-ready R
 
 All code for this tutorial is available at [GitHub][3].
 
+{% include toc %}
+
 ## How do you get started with Dropwizard?
 
 A single Maven, Gradle, or Ivy dependency will get you all the components necessary for making Dropwizard-powered web services.
