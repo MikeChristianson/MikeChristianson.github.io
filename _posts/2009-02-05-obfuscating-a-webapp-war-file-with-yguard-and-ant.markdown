@@ -21,7 +21,7 @@ There are quite a few obfuscators for Java -- at least a dozen when I looked -- 
 
 For my use I selected one with a ready-to-use Ant task: <a href="http://www.yworks.com/en/products_yguard_about.html">yGuard</a>.  Unfortunately, yGuard operates on .jar files only, not individual .class files or webapp .war files.  Thus, I have written my own Ant script which uses yGuard and built-in Ant tasks to obfuscate .war files.<!--more-->
 
-<p style="border: thin dashed;"><em>Update 2009-12-11</em>: If I had to do it over again, I would obfuscate my classes/jars before creating the .war file.</p>
+<p class="notice"><em>Update 2009-12-11</em>: If I had to do it over again, I would obfuscate my classes/jars before creating the .war file.</p>
 
 Before you try using my Ant script, read <a href="http://www.yworks.com/products/yguard/yguard_ant_howto.html">yGuard's documentation</a> and be sure you fully understand how it works.  You should pay special attention to the <a href="http://www.yworks.com/products/yguard/yguard_ant_howto.html#inoutpairs">inoutpairs</a>, <a href="http://www.yworks.com/products/yguard/yguard_ant_howto.html#keep">keep</a>, and <a href="http://www.yworks.com/products/yguard/yguard_ant_howto.html#hints">hints and troubleshooting</a> sections.
 

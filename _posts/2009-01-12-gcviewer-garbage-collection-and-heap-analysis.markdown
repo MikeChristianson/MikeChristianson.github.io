@@ -18,7 +18,7 @@ meta:
   _wpas_skip_2141747: '1'
   simplecatch-sidebarlayout: ''
 ---
-<p style="border: thin dashed;">Jörg Wüthrich <a href="https://github.com/chewiebug/GCViewer">forked GCViewer</a> in 2011 and has added support for Java 1.6 and 1.7 (including the new G1 collector). Tagtraum stopped improving its original version in 2008.</p>
+<p class="notice">Jörg Wüthrich <a href="https://github.com/chewiebug/GCViewer">forked GCViewer</a> in 2011 and has added support for Java 1.6 and 1.7 (including the new G1 collector). Tagtraum stopped improving its original version in 2008.</p>
 
 <a href="https://github.com/chewiebug/GCViewer"><img src="http://www.smugmug.com/photos/i-MzC4FrR/0/S/i-MzC4FrR-S.png" width="400" height="296" style="float: right; margin-left: 2em;"/></a>
 

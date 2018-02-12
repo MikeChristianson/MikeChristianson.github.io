@@ -18,7 +18,7 @@ Note: this post was updated in light of <a href="http://www.advancedinstaller.co
 
 At work, we use <a href="http://www.advancedinstaller.com/">Advanced Installer</a> to create easy-to-use Windows installers for internal and external customers.  I wrote a short Ant script for building the installer to save time and minimize mistakes.
 
-<p style="border: thin dashed;">
+<p class="notice">
 <em>If you use Advanced Installer with your Java projects, be sure to read my post on <a href="/2009/02/use-advanced-installer-licensing-within-a-java-application/">using the Advanced Installer licensing feature within a Java application</a>.</em>
 </p>
 

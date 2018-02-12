@@ -18,4 +18,4 @@ Software packages from Ubuntu repositories can have some interesting and problem
 
 Ubuntu's Eclipse package also depends on GCJ.  If you wish to avoid this dependency, simply download the appropriate binary distribution from the <a href="http://www.eclipse.org/downloads/">Eclipse download site</a>, extract to the location of your choice, and run Eclipse.
 
-<p style="border: thin dashed;">Before using Eclipse, be sure you have Sun's JRE <a href="/2008/11/java-6-update-10-is-available/">installed and configured as the default JRE</a>.</p>
+<p class="notice">Before using Eclipse, be sure you have Sun's JRE <a href="/2008/11/java-6-update-10-is-available/">installed and configured as the default JRE</a>.</p>

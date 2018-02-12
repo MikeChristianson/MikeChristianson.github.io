@@ -17,7 +17,7 @@ meta:
   _wpas_skip_2141747: '1'
   simplecatch-sidebarlayout: ''
 ---
-<p style="border: thin dashed;"><em>This article is four years old! The world of Java garbage collection has changed a bit. Please keep that in mind when reading. You may also wish to watch a talk on <a href="http://www.infoq.com/presentations/Visualizing-Java-GC">garbage collection by Ben Evans</a></em> at DevNexus 2013.</p>
+<p class="notice"><em>This article is four years old! The world of Java garbage collection has changed a bit. Please keep that in mind when reading. You may also wish to watch a talk on <a href="http://www.infoq.com/presentations/Visualizing-Java-GC">garbage collection by Ben Evans</a></em> at DevNexus 2013.</p>
 
 Java's built-in garbage collection logging provides a quick, easy, and <em>free</em> way to profile or troubleshoot your Java application.&nbsp; It can help you understand your application in terms of:
 <ul>
@@ -31,7 +31,7 @@ GC logging is enabled using JVM arguments; below are the arguments I use. <!--mo
 
 `-verbose:gc -Xloggc:<em>file</em>`
 
-<p style="border: thin dashed;">Dan Evans, in his <a href="http://www.infoq.com/presentations/Visualizing-Java-GC">garbage collection talk at DevNexus 2013</a>, recommends the following GC flags in addition to the above.
+<p class="notice">Dan Evans, in his <a href="http://www.infoq.com/presentations/Visualizing-Java-GC">garbage collection talk at DevNexus 2013</a>, recommends the following GC flags in addition to the above.
 
 `-XX:+PrintGCDetails -XX:+PrintTenuringDistribution`</p>
 

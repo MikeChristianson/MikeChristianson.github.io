@@ -16,7 +16,7 @@ meta:
   _edit_last: '2'
   simplecatch-sidebarlayout: ''
 ---
-<p style="border: thin dashed;">See <a href="/mike/blog/2009/05/processing-case-shiller-home-price-index/">my post of May 26, 2009</a> for a more up-to-date Case-Shiller Home Price Index</a> graph.</p>
+<p class="notice">See <a href="/mike/blog/2009/05/processing-case-shiller-home-price-index/">my post of May 26, 2009</a> for a more up-to-date Case-Shiller Home Price Index</a> graph.</p>
 
 <a href="/mike/blog/wp-content/uploads/2009/04/screenshot-sketch_apr04a.png"><img src="/mike/blog/wp-content/uploads/2009/04/screenshot-sketch_apr04a-150x100.png" alt="screenshot-sketch_apr04a" title="screenshot-sketch_apr04a" width="150" height="100" class="alignright size-thumbnail wp-image-319" /></a>I must admit, I've been extremely lazy about reading <a href="http://www.amazon.com/Visualizing-Data-Ben-Fry/dp/0596514557/?tag=wiltblog-20">Visualizing Data</a> or even updating this blog... but, this post should make up for it.
 
