@@ -1,6 +1,6 @@
 ---
-layout: home
-title:
+layout: page
+title: ""
 ---
 
 ### Senior Software Engineer
@@ -19,7 +19,7 @@ Focused on creating understandable, maintainable, and testable code. Adept at ma
 ### Community Member and Leader
 
 <p style="text-align: justify;">
-Constant individual and group learner. Leader of the _Phoenix Software Engineering Reading Group_.
+Constant individual and group learner. Leader of the <em>Phoenix Software Engineering Reading Group</em>.
 </p>
 
 {% include contact-button.html %}
