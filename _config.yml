@@ -43,8 +43,6 @@ liquid:
 # Build settings
 permalink: /:year/:month/:title/
 markdown:    kramdown
-# feed:
-#  path: http://feeds.codeaweso.me/CodeAwesome
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 # paginate: 10
@@ -109,7 +107,7 @@ author:
 # Footer Links
 footer_links:
   - title: Feed
-    url: feed.xml
+    url: http://feeds.codeaweso.me/CodeAwesome
     icon: fas fa-rss-square
 
 # highlighter: rouge
