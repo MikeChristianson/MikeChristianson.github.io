@@ -109,7 +109,7 @@ author:
 # Footer Links
 footer_links:
   - title: Feed
-    url: atom.xml
+    url: feed.xml
     icon: fas fa-rss-square
 
 # highlighter: rouge
