@@ -2,7 +2,7 @@
 {%- assign author = site.data.authors[author] | default: author -%}
 
 {%- if author.links[1] -%}
-  <ul style="margin-right: 1em;">
+  <ul style="padding-left: 0px">
     {%- for link in author.links -%}
       {%- if link.url contains "://" -%}
         {%- assign url = link.url -%}
