@@ -17,7 +17,6 @@ Focused on creating understandable, maintainable, and testable code. Adept at ma
 </p>
 
 ### Community Member and Leader
-### Community Member and Leader
 
 <p class="text-justify">
 Constant individual and group learner. Leader of the <em>Phoenix Software Engineering Reading Group</em>.
