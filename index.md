@@ -42,7 +42,7 @@ Constant individual and group learner. Leader of the <em>Phoenix Software Engine
 
 {% include contact-button.html %}
 
-[1]: {{ url }}/contact/
+[1]: http://contact.codeaweso.me/
 [2]: https://github.com/MikeChristianson/sleeping-barber
 [3]: https://github.com/MikeChristianson/MotoWatcher
 [4]: http://www.dzone.com/users/mikechristianson

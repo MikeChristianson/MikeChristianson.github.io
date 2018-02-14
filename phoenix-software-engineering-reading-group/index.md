@@ -34,5 +34,5 @@ Find out more by visiting [Phoenix Software Engineering Reading Group on meetup.
 * *Beyond Legacy Code*
 * *The Mikado Method*
 
-[1]: /contact/
+[1]: http://contact.codeaweso.me/
 [meetup]: http://www.meetup.com/Phoenix-Software-Engineering-Reading-Group/
