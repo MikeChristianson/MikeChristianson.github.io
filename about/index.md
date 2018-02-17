@@ -1,6 +1,9 @@
 ---
 layout: page
 title: ""
+redirect_from:
+  - /
+  - /blog
 ---
 
 ### Senior Software Engineer
