@@ -5,7 +5,7 @@ redirect_from:
   - /blog
 ---
 
-### Senior Software Engineer
+### Senior Software Engineer and Tech Lead
 
 <p class="text-justify">
 <span class="align-right">{% include author-photo.html %}</span>
