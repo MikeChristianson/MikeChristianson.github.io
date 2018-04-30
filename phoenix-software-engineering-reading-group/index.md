@@ -6,7 +6,7 @@ redirect_from:
 ---
 We're a group of Phoenix-area software engineers and developers! We meet every other week at Infusionsoft in Chandler.
 
-> We believe there's more to programming than punching a clock and keeping status quo. We put thought and craft into our work and treat constant learning as a first principle. If you care about the code you write and love to learn with others, join us!
+> Are you interested in thoughtful and lively discussions about craft and philosophy of software development? Join our meetup and add your unique voice and experience!
 
 Find out more by visiting [Phoenix Software Engineering Reading Group on meetup.com][meetup].
 
@@ -33,6 +33,7 @@ Find out more by visiting [Phoenix Software Engineering Reading Group on meetup.
 * *Release It!*
 * *Beyond Legacy Code*
 * *The Mikado Method*
+* *Kotlin in Action*
 
 [1]: http://contact.codeaweso.me/
 [meetup]: http://www.meetup.com/Phoenix-Software-Engineering-Reading-Group/
