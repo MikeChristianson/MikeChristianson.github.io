@@ -10,8 +10,6 @@ We're a group of Phoenix-area software engineers and developers! We meet every o
 
 Find out more by visiting [Phoenix Software Engineering Reading Group on meetup.com][meetup].
 
-[![Phoenix Software Engineering Reading Group](https://photos.smugmug.com/photos/i-ZcfmrHS/0/bf9f0ef1/M/i-ZcfmrHS-M.jpg){: style="align: center; margin: 1em;"}][meetup]
-
 <a name="past-books" />
 
 ### Past books
