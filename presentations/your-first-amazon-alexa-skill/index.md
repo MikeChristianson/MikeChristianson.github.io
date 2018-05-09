@@ -4,8 +4,7 @@ title: "Your First Amazon Alexa Skill"
 last_modified_at: 2016-10-17 15:50:00 -0700
 excerpt: "Your First Amazon Alexa Skill" 
 tags: [alexa,amazon echo,amazon,programming,skill,desert code camp,speaking,phoenix mobile meetup,phxmobi]
-image:
-  feature: https://photos.smugmug.com/photos/i-7j32VjF/0/M/i-7j32VjF-M.png 
+image: https://photos.smugmug.com/photos/i-7j32VjF/0/M/i-7j32VjF-M.png 
 ---
 
 # Your First Amazon Alexa Skill
