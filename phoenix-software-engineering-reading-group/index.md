@@ -4,7 +4,7 @@ title: Phoenix Software Engineering Reading Group
 redirect_from:
   - /phoenix-software-engineering-reading-group-at-gangplank/
 ---
-We're a group of Phoenix-area software engineers and developers! We meet every other week at Infusionsoft in Chandler.
+We're a group of Phoenix-area software engineers and developers! We meet every other week at Amazon (Hayden Ferry Lakeside) in Tempe.
 
 > Are you interested in thoughtful and lively discussions about craft and philosophy of software development? Join our meetup and add your unique voice and experience!
 
