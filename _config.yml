@@ -90,7 +90,7 @@ defaults:
 # Site Author
 author:
   name: Mike Christianson
-  picture: /images/avatar.jpg
+  picture: /images/avatar.png
   email:
   twitter: MikeCodeAwesome
   github: MikeChristianson
