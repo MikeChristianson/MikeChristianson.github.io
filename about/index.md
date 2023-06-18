@@ -21,10 +21,8 @@ Focused on creating understandable, maintainable, and testable code. Adept at ma
 ### Community Member and Leader
 
 <p class="text-justify">
-Constant individual and group learner. Leader of the <em>Phoenix Software Engineering Reading Group</em>.
+Constant individual and group learner. Founding member of the <em>Phoenix Software Engineering Reading Group</em>.
 </p>
-
-{% include contact-button.html %}
 
 # Skills, Languages, Technologies, etc.
 
@@ -41,8 +39,6 @@ Constant individual and group learner. Leader of the <em>Phoenix Software Engine
 * **[Dropwizard Tutorial][6]** (2014). Painless RESTful JSON HTTP web services. *Java, Dropwizard, Jetty, Jersey, Jackson*.
 * **[Sleeping Barber][2]** (2013). My take on the Sleeping Barber program using then-modern Java concurrency constructs. *Java*.
 * **[MotoWatcher][3]** (2012). Motorola cable modem signal statistics page scraper and notifier. *Java, HTTP, XOM, TagSoup, XML, HTML, Growl/Prowl*.
-
-{% include contact-button.html %}
 
 [1]: http://contact.codeaweso.me/
 [2]: https://github.com/MikeChristianson/sleeping-barber
